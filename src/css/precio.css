@@ -6,29 +6,29 @@
 	user-select: none;
 }
 
-.cantidad {
+.container-price .cantidad {
 	font-size: 0.85rem;
 	width: 10%;
 }
 
-.disco {
+.container-price .disco {
 	font-size: 0.85rem;
 	width: 50%;
 }
-.price {
+.container-price .price {
 	font-size: 0.85rem;
 	width: 25%;
 }
-.container-icon .icon-delete {
+.container-price .container-icon {
+	width: 10%;
+	margin: 13px 0;
+	color: rgb(250, 0, 0);
+}
+
+.container-price .container-icon .icon-delete {
 	font-size: 0.85rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
-}
-
-div .container-icon {
-	width: 10%;
-	margin: 13px 0;
-	color: rgb(250, 0, 0);
 }
