@@ -1,0 +1,34 @@
+.container-price {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	width: 100%;
+	user-select: none;
+}
+
+.cantidad {
+	font-size: 0.85rem;
+	width: 10%;
+}
+
+.disco {
+	font-size: 0.85rem;
+	width: 50%;
+}
+.price {
+	font-size: 0.85rem;
+	width: 25%;
+}
+.container-icon .icon-delete {
+	font-size: 0.85rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+div .container-icon {
+	width: 10%;
+	margin: 13px 0;
+	color: rgb(250, 0, 0);
+}
