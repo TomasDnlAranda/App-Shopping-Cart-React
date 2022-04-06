@@ -39,12 +39,21 @@ function App() {
 		}
 	};
 
+	const removeDiscsToFavorite = (item, id) => {
+		const removeDisc = favoriteDiscs.filter((item) => item.id !== id);
+		setfavoriteDiscs(removeDisc);
+	};
+
 	return (
 		<>
 			<Navbar favoriteDiscs={favoriteDiscs} />
 			<div className="container">
 				<div className="container-left">
-					<Product addProductToCart={addProductToCart} addDiscsToFavorites={addDiscsToFavorites} />
+					<Product
+						addProductToCart={addProductToCart}
+						addDiscsToFavorites={addDiscsToFavorites}
+						removeDiscsToFavorite={removeDiscsToFavorite}
+					/>
 				</div>
 				<div className="container-right">
 					<CartShopping

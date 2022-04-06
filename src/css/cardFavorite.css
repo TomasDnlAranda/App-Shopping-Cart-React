@@ -12,12 +12,18 @@ img {
 }
 
 .container-img-favorite {
-	width: 10%;
+	width: 20%;
 }
 
-.disco-fav {
+.disk-fav {
 	font-size: 0.85rem;
-	width: 33%;
+	width: 25%;
+	color: #fff;
+}
+
+.artist-fav {
+	font-size: 0.85rem;
+	width: 25%;
 	color: #fff;
 }
 
