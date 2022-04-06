@@ -22,7 +22,7 @@ const CardProduct = ({ item, addProductToCart, addProductToFavorite }) => {
 					</button>
 					<IconHeart
 						className={favorite === true ? 'add-favorite' : 'remove-favorite'}
-						onClick={() => addProductToFavorite(item, id)}
+						onClick={() => addProductToFavorite(item, id, favorite)}
 					/>
 				</div>
 			</div>

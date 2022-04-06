@@ -14,7 +14,7 @@ import OLIVIA_RODRIGO from '../image/artista-olivia-rodrigo.jpg';
 import GREEN_DAY from '../image/artista-green-day.jpg';
 import BTS from '../image/artista-bts.jpg';
 
-const Product = ({ addProductToCart, addDiscsToFavorites }) => {
+const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite }) => {
 	const [data, setData] = useState([
 		{
 			artist: 'Dua Lipa',
@@ -130,12 +130,15 @@ const Product = ({ addProductToCart, addDiscsToFavorites }) => {
 		},
 	]);
 
-	const addProductToFavorite = (item, id) => {
+	const addProductToFavorite = (item, id, favorite) => {
 		const changeStateHeartCard = data.map((item) =>
 			item.id === id ? { ...item, favorite: !item.favorite } : item
 		);
 		setData(changeStateHeartCard);
 		addDiscsToFavorites(item, id);
+		if (favorite === true) {
+			removeDiscsToFavorite(item, id);
+		}
 	};
 
 	return (
