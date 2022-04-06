@@ -1,44 +1,57 @@
 import Navbar from './components/Navbar';
 import Product from './components/Product';
-import Carrito from './components/Carrito';
+import CartShopping from './components/CartShopping';
 import { useState } from 'react';
 import './css/app.css';
 
 function App() {
-	const [products, setProducts] = useState([]);
+	const [cartProducts, setCartProducts] = useState([]);
+	const [favoriteDiscs, setfavoriteDiscs] = useState([]);
 
-	const dataArr = (product) => {
-		const index = products.findIndex((item) => item.id === product.id);
+	const addProductToCart = (product) => {
+		const index = cartProducts.findIndex((item) => item.id === product.id);
 		if (index === -1) {
-			setProducts((old) => [...old, product]);
+			setCartProducts((old) => [...old, product]);
 		} else {
-			const sumarCantidad = products.map((item) =>
-				item.id === product.id ? { ...item, cantidad: item.cantidad + 1 } : item
+			const increaseQuantity = cartProducts.map((item) =>
+				item.id === product.id ? { ...item, amount: item.amount + 1 } : item
 			);
-			setProducts(sumarCantidad);
+			setCartProducts(increaseQuantity);
 		}
 	};
 
-	const handleClick = (id) => {
-		const restar = products.map((item) =>
-			item.id === id ? { ...item, cantidad: item.cantidad - 1 } : item
+	const removeProductFromCart = (id) => {
+		const remove = cartProducts.map((item) =>
+			item.id === id ? { ...item, amount: item.amount - 1 } : item
 		);
-		setProducts(restar);
+		setCartProducts(remove);
 	};
 
-	const filtrar = (id) => {
-		const filtrar = products.filter((product) => product.cantidad !== 0);
-		setProducts(filtrar);
+	const filterAmount = (id) => {
+		const filterProduct = cartProducts.filter((product) => product.amount !== 0);
+		setCartProducts(filterProduct);
 	};
+
+	const addDiscsToFavorites = (item, id) => {
+		const index = favoriteDiscs.findIndex((item) => item.id === id);
+		if (index === -1) {
+			setfavoriteDiscs((old) => [...old, item]);
+		}
+	};
+
 	return (
 		<>
-			<Navbar />
+			<Navbar favoriteDiscs={favoriteDiscs} />
 			<div className="container">
 				<div className="container-left">
-					<Product dataArr={dataArr} />
+					<Product addProductToCart={addProductToCart} addDiscsToFavorites={addDiscsToFavorites} />
 				</div>
 				<div className="container-right">
-					<Carrito products={products} handleClick={handleClick} filtrar={filtrar} />
+					<CartShopping
+						cartProducts={cartProducts}
+						removeProductFromCart={removeProductFromCart}
+						filterAmount={filterAmount}
+					/>
 				</div>
 			</div>
 		</>

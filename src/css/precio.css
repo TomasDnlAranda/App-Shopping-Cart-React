@@ -4,6 +4,7 @@
 	flex-direction: row;
 	width: 100%;
 	user-select: none;
+	background: rgba(255, 255, 255, 0);
 }
 
 .container-price .cantidad {
@@ -22,7 +23,7 @@
 .container-price .container-icon {
 	width: 10%;
 	margin: 13px 0;
-	color: rgb(250, 0, 0);
+	color: #fa0000;
 }
 
 .container-price .container-icon .icon-delete {
