@@ -1,0 +1,26 @@
+.container-favorite {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	margin: 5px 0;
+}
+img {
+	height: 30px;
+	width: 30px;
+	border-radius: 5px;
+}
+
+.container-img-favorite {
+	width: 10%;
+}
+
+.disco-fav {
+	font-size: 0.85rem;
+	width: 33%;
+	color: #fff;
+}
+
+.icon-delete-fav {
+	color: #df0000;
+}

@@ -1,12 +1,12 @@
 import React from 'react';
 import '../css/navbar.css';
-import Favorite from './Favorite';
+import ModalFavoriteSection from './ModalFavoriteSection';
 
-const Navbar = () => {
+const Navbar = ({ favoriteDiscs }) => {
 	return (
 		<>
 			<nav>
-				<Favorite />
+				<ModalFavoriteSection favoriteDiscs={favoriteDiscs} />
 			</nav>
 		</>
 	);
