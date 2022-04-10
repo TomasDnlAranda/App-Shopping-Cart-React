@@ -17,6 +17,9 @@ import MAROON_5 from '../image/artista-maroon-5.jpg';
 import OLIVIA_RODRIGO from '../image/artista-olivia-rodrigo.jpg';
 import GREEN_DAY from '../image/artista-green-day.jpg';
 import BTS from '../image/artista-bts.jpg';
+import TOP from '../image/artista-top.jpg';
+import THE_NEIGHBOURHOOD from '../image/artist-the-neighbourhood.jpg';
+import NIRVANA from '../image/artista-nirvana.jpg';
 
 import DUA_LIPA_1 from '../audio/dua-lipa/1.ogg';
 import DUA_LIPA_2 from '../audio/dua-lipa/2.ogg';
@@ -47,12 +50,105 @@ import THE_WEEKEND_12 from '../audio/the-weekend/12.ogg';
 import THE_WEEKEND_13 from '../audio/the-weekend/13.ogg';
 import THE_WEEKEND_14 from '../audio/the-weekend/14.ogg';
 
+import TOP_1 from '../audio/top/1.ogg';
+import TOP_2 from '../audio/top/2.ogg';
+import TOP_3 from '../audio/top/3.ogg';
+import TOP_4 from '../audio/top/4.ogg';
+import TOP_5 from '../audio/top/5.ogg';
+import TOP_6 from '../audio/top/6.ogg';
+import TOP_7 from '../audio/top/7.ogg';
+import TOP_8 from '../audio/top/8.ogg';
+import TOP_9 from '../audio/top/9.ogg';
+import TOP_10 from '../audio/top/10.ogg';
+import TOP_11 from '../audio/top/11.ogg';
+import TOP_12 from '../audio/top/12.ogg';
+import TOP_13 from '../audio/top/13.ogg';
+import TOP_14 from '../audio/top/14.ogg';
+
+import NIRVANA_1 from '../audio/nirvana/1.ogg';
+import NIRVANA_2 from '../audio/nirvana/2.ogg';
+import NIRVANA_3 from '../audio/nirvana/3.ogg';
+import NIRVANA_4 from '../audio/nirvana/4.ogg';
+import NIRVANA_5 from '../audio/nirvana/5.ogg';
+import NIRVANA_6 from '../audio/nirvana/6.ogg';
+import NIRVANA_7 from '../audio/nirvana/7.ogg';
+import NIRVANA_8 from '../audio/nirvana/8.ogg';
+import NIRVANA_9 from '../audio/nirvana/9.ogg';
+import NIRVANA_10 from '../audio/nirvana/10.ogg';
+import NIRVANA_11 from '../audio/nirvana/11.ogg';
+import NIRVANA_12 from '../audio/nirvana/12.ogg';
+import NIRVANA_13 from '../audio/nirvana/13.ogg';
+
+import OLIVIA_RODRIGO_1 from '../audio/olivia-rodrigo/1.ogg';
+import OLIVIA_RODRIGO_2 from '../audio/olivia-rodrigo/2.ogg';
+import OLIVIA_RODRIGO_3 from '../audio/olivia-rodrigo/3.ogg';
+import OLIVIA_RODRIGO_4 from '../audio/olivia-rodrigo/4.ogg';
+import OLIVIA_RODRIGO_5 from '../audio/olivia-rodrigo/5.ogg';
+import OLIVIA_RODRIGO_6 from '../audio/olivia-rodrigo/6.ogg';
+import OLIVIA_RODRIGO_7 from '../audio/olivia-rodrigo/7.ogg';
+import OLIVIA_RODRIGO_8 from '../audio/olivia-rodrigo/8.ogg';
+import OLIVIA_RODRIGO_9 from '../audio/olivia-rodrigo/9.ogg';
+import OLIVIA_RODRIGO_10 from '../audio/olivia-rodrigo/10.ogg';
+import OLIVIA_RODRIGO_11 from '../audio/olivia-rodrigo/11.ogg';
+
+import ED_SHEERAN_1 from '../audio/ed-sheeran/1.ogg';
+import ED_SHEERAN_2 from '../audio/ed-sheeran/2.ogg';
+import ED_SHEERAN_3 from '../audio/ed-sheeran/3.ogg';
+import ED_SHEERAN_4 from '../audio/ed-sheeran/4.ogg';
+import ED_SHEERAN_5 from '../audio/ed-sheeran/5.ogg';
+import ED_SHEERAN_6 from '../audio/ed-sheeran/6.ogg';
+import ED_SHEERAN_7 from '../audio/ed-sheeran/7.ogg';
+import ED_SHEERAN_8 from '../audio/ed-sheeran/8.ogg';
+import ED_SHEERAN_9 from '../audio/ed-sheeran/9.ogg';
+import ED_SHEERAN_10 from '../audio/ed-sheeran/10.ogg';
+import ED_SHEERAN_11 from '../audio/ed-sheeran/11.ogg';
+import ED_SHEERAN_12 from '../audio/ed-sheeran/12.ogg';
+import ED_SHEERAN_13 from '../audio/ed-sheeran/13.ogg';
+import ED_SHEERAN_14 from '../audio/ed-sheeran/14.ogg';
+
+import THE_NEIGHBOURHOOD_1 from '../audio/the-neighbourhood/1.ogg';
+import THE_NEIGHBOURHOOD_2 from '../audio/the-neighbourhood/2.ogg';
+import THE_NEIGHBOURHOOD_3 from '../audio/the-neighbourhood/3.ogg';
+import THE_NEIGHBOURHOOD_4 from '../audio/the-neighbourhood/4.ogg';
+import THE_NEIGHBOURHOOD_5 from '../audio/the-neighbourhood/5.ogg';
+
+import DOJA_CAT_1 from '../audio/doja-cat/1.ogg';
+import DOJA_CAT_2 from '../audio/doja-cat/2.ogg';
+import DOJA_CAT_3 from '../audio/doja-cat/3.ogg';
+import DOJA_CAT_4 from '../audio/doja-cat/4.ogg';
+import DOJA_CAT_5 from '../audio/doja-cat/5.ogg';
+import DOJA_CAT_6 from '../audio/doja-cat/6.ogg';
+import DOJA_CAT_7 from '../audio/doja-cat/7.ogg';
+import DOJA_CAT_8 from '../audio/doja-cat/8.ogg';
+import DOJA_CAT_9 from '../audio/doja-cat/9.ogg';
+import DOJA_CAT_10 from '../audio/doja-cat/10.ogg';
+import DOJA_CAT_11 from '../audio/doja-cat/11.ogg';
+import DOJA_CAT_12 from '../audio/doja-cat/12.ogg';
+
+import POST_MALONE_1 from '../audio/post-malone/1.ogg';
+import POST_MALONE_2 from '../audio/post-malone/2.ogg';
+import POST_MALONE_3 from '../audio/post-malone/3.ogg';
+import POST_MALONE_4 from '../audio/post-malone/4.ogg';
+import POST_MALONE_5 from '../audio/post-malone/5.ogg';
+import POST_MALONE_6 from '../audio/post-malone/6.ogg';
+import POST_MALONE_7 from '../audio/post-malone/7.ogg';
+import POST_MALONE_8 from '../audio/post-malone/8.ogg';
+import POST_MALONE_9 from '../audio/post-malone/9.ogg';
+import POST_MALONE_10 from '../audio/post-malone/10.ogg';
+import POST_MALONE_11 from '../audio/post-malone/11.ogg';
+import POST_MALONE_12 from '../audio/post-malone/12.ogg';
+import POST_MALONE_13 from '../audio/post-malone/13.ogg';
+import POST_MALONE_14 from '../audio/post-malone/14.ogg';
+import POST_MALONE_15 from '../audio/post-malone/15.ogg';
+import POST_MALONE_16 from '../audio/post-malone/16.ogg';
+import POST_MALONE_17 from '../audio/post-malone/17.ogg';
+
 const DescriptionDisc = () => {
 	let { id } = useParams();
 
 	const [songsDemo, setSongsDemo] = useState({});
 
-	const [data] = useState([
+	const [data, setData] = useState([
 		{
 			artist: 'Dua Lipa',
 			disk: 'Future Nostalgia',
@@ -66,6 +162,7 @@ const DescriptionDisc = () => {
 			age: 2020,
 			song: 13,
 			minutes: 43,
+			explicit: true,
 			songs: [
 				{
 					song: 'Future Nostalgia',
@@ -186,6 +283,7 @@ const DescriptionDisc = () => {
 			age: 2020,
 			song: 14,
 			minutes: 56,
+			explicit: true,
 			songs: [
 				{
 					song: 'Alone Again',
@@ -302,6 +400,313 @@ const DescriptionDisc = () => {
 			],
 		},
 		{
+			artist: 'Nirvana',
+			disk: 'Nevermind',
+			description:
+				'Nevermind —en español: «No importa»— es el segundo álbum de estudio de la banda estadounidense de grunge Nirvana, publicado en septiembre de 1991. Producido por Butch Vig, Nevermind fue el primer lanzamiento de la banda con DGC Records. El líder de la agrupación, Kurt Cobain, trató de hacer música fuera de los límites restrictivos de la escena grunge de Seattle, aprovechando la influencia de grupos como los Pixies y su uso de la dinámica de canciones ruidosas y calmadas, con grandes composiciones y sonidos. Gracias a este álbum el género grunge se hizo conocido a nivel mundial, recibiendo una gran aceptación y aclamación por críticos especializados de música, quienes también consideran el álbum como uno de los mejores de la historia.Pese a las escasas esperanzas comerciales por parte de la banda y del sello discográfico, Nevermind se convirtió en un sorprendente éxito a finales de 1991, en gran parte debido a su primer sencillo, «Smells Like Teen Spirit». En enero de 1992 había desbancado al álbum de Michael Jackson Dangerous del número uno del Billboard. La RIAA certificó el álbum con disco de diamante.',
+			price: 140.15,
+			id: 15,
+			img: NIRVANA,
+			amount: 1,
+			favorite: false,
+			age: 1991,
+			song: 13,
+			minutes: 49,
+			explicit: false,
+			songs: [
+				{
+					song: 'Smells Like Teen Spirit',
+					time: '5:01',
+					img: NIRVANA,
+					url: NIRVANA_1,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'In Bloom',
+					time: '4:15',
+					img: NIRVANA,
+					url: NIRVANA_2,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Come As You Are',
+					time: '3:38',
+					img: NIRVANA,
+					url: NIRVANA_3,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Breed',
+					time: '3:04',
+					img: NIRVANA,
+					url: NIRVANA_4,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Lithium',
+					time: '4:17',
+					img: NIRVANA,
+					url: NIRVANA_5,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Polly',
+					time: '2:53',
+					img: NIRVANA,
+					url: NIRVANA_6,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Territorial Pissings',
+					time: '2:22',
+					img: NIRVANA,
+					url: NIRVANA_7,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Drain You',
+					time: '3:43',
+					img: NIRVANA,
+					url: NIRVANA_8,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Lounge Acy',
+					time: '2:36',
+					img: NIRVANA,
+					url: NIRVANA_9,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Stay Away',
+					time: '3:31',
+					img: NIRVANA,
+					url: NIRVANA_10,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'On A Plain',
+					time: '3:14',
+					img: NIRVANA,
+					url: NIRVANA_11,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Something in The Way',
+					time: '3:52',
+					img: NIRVANA,
+					url: NIRVANA_12,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Endless, Nameless',
+					time: '6:43',
+					img: NIRVANA,
+					url: NIRVANA_13,
+					like: false,
+					dislike: false,
+				},
+			],
+		},
+		{
+			artist: 'The Neighbourhood',
+			disk: "I'm Sorry...",
+			description:
+				'The Neighbourhood (simbolizado como THE NBHD) es un grupo de musica alternativa rock estadounidense creado en agosto de 2011. El grupo está conformado por el vocalista Jesse Rutherford, los guitarristas Jeremy Freedman y Zach Abels, el baterista Brandon Fried y el bajista Mikey Margott. Posteriormente The Neighbourhood reveló su primer álbum de larga duración, el 23 de abril de 2013, por medio de Columbia Records. El 16 de enero de 2014, la banda confesó a través de medios de comunicación social que el baterista Bryan Sammis abandona la agrupación para continuar una carrera en solitario dentro de la música. En noviembre de 2014, lanzaron nuevos álbumes con los nombres Thank you, I Love You, The Love Collection, Wiped Out! y Hard EP, los cuales se destacan por el color gris y negro entre todas sus canciones. En 2018, lanzaron su primer álbum en color, el cual cuenta con un sonido mucho más electrónico que sus predecesores, con las que obtuvieron más reconocimiento y destacaron mucho más. Su álbum más reciente es Chip Chrome & The Mono-Tones.',
+			price: 35.45,
+			id: 14,
+			img: THE_NEIGHBOURHOOD,
+			amount: 1,
+			favorite: false,
+			age: 2012,
+			song: 5,
+			minutes: 17,
+			explicit: false,
+			songs: [
+				{
+					song: 'Female Robbery',
+					time: '3:27',
+					img: THE_NEIGHBOURHOOD,
+					url: THE_NEIGHBOURHOOD_1,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Leaving Tonight',
+					time: '3:24',
+					img: THE_NEIGHBOURHOOD,
+					url: THE_NEIGHBOURHOOD_2,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Baby Came Home',
+					time: '3:47',
+					img: THE_NEIGHBOURHOOD,
+					url: THE_NEIGHBOURHOOD_3,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Sweater Weather',
+					time: '4:01',
+					img: THE_NEIGHBOURHOOD,
+					url: THE_NEIGHBOURHOOD_4,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Wires',
+					time: '3:13',
+					img: THE_NEIGHBOURHOOD,
+					url: THE_NEIGHBOURHOOD_5,
+					like: false,
+					dislike: false,
+				},
+			],
+		},
+		{
+			artist: 'Twenty One Pilots',
+			disk: 'Blurryface',
+			description:
+				"Blurryface, es el cuarto álbum de larga duración y segundo álbum de estudio del dúo musical estadounidense Twenty One Pilots, lanzado el 17 de mayo de 2015, a través de Fueled by Ramen. Al igual que su álbum anterior Vessel, el álbum toma influencia de varios géneros, incluidos hip hop, rock, pop, reggae y indie. Líricamente, el álbum incorpora temas de salud mental, duda y religión. Contiene los sencillos exitosos 'Stressed Out' y 'Ride', que alcanzaron el top 5 en Billboard Hot 100. Blurryface fue bien recibido por los críticos, quienes felicitaron sus temas y diversidad musical. Se considera que es el álbum revolucionario de la banda, convirtiéndose en el primero en alcanzar el número uno en Billboard 200. El álbum ha vendido más de 1.5 millones de copias en los Estados Unidos hasta abril de 2017.​ En 2018, Blurryface se convirtió en el primer álbum en la era digital en tener cada pista recibió al menos una certificación de oro de la Asociación de Industria Discográfica de Estados Unidos.​​ El 15 de mayo de 2019, alcanzó el hit de estar en la lista Billboard Top 200 Album durante cuatro años, sin abandonar nunca la lista.​",
+			price: 72.25,
+			id: 13,
+			img: TOP,
+			amount: 1,
+			favorite: false,
+			age: 2015,
+			song: 14,
+			minutes: 52,
+			explicit: false,
+			songs: [
+				{
+					song: 'Heavydirtysoul',
+					time: '3:55',
+					img: TOP,
+					url: TOP_1,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Stressed Out',
+					time: '3:23',
+					img: TOP,
+					url: TOP_2,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Ride',
+					time: '3:35',
+					img: TOP,
+					url: TOP_3,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Fairly Local',
+					time: '3:28',
+					img: TOP,
+					url: TOP_4,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Tear in My Heart',
+					time: '3:09',
+					img: TOP,
+					url: TOP_5,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Lane Boy',
+					time: '4:14',
+					img: TOP,
+					url: TOP_6,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'The Judge',
+					time: '4:58',
+					img: TOP,
+					url: TOP_7,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Doubt',
+					time: '3:12',
+					img: TOP,
+					url: TOP_8,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Polarize',
+					time: '3:47',
+					img: TOP,
+					url: TOP_9,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: "We Dont' Believe What's on TV",
+					time: '2:58',
+					img: TOP,
+					url: TOP_10,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Message Man',
+					time: '4:01',
+					img: TOP,
+					url: TOP_11,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Hometown',
+					time: '3:55',
+					img: TOP,
+					url: TOP_12,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Not Today',
+					time: '3:59',
+					img: TOP,
+					url: TOP_13,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Goner',
+					time: '3:57',
+					img: TOP,
+					url: TOP_14,
+					like: false,
+					dislike: false,
+				},
+			],
+		},
+		{
 			artist: 'Doja Cat',
 			disk: 'Hot Pink',
 			description:
@@ -311,85 +716,104 @@ const DescriptionDisc = () => {
 			img: DOJA_CAT,
 			amount: 1,
 			favorite: false,
-			age: 2020,
-			song: 13,
-			minutes: 43,
+			age: 2019,
+			song: 12,
+			minutes: 39,
+			explicit: true,
 			songs: [
 				{
-					song: 'Future Nostalgia',
-					time: '3:05',
+					song: 'Cyber Sex',
+					url: DOJA_CAT_1,
+					img: DOJA_CAT,
+					time: '2:46',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: "Don't Start Now",
-					time: '3:04',
+					song: "Won't Bite (con Smino)",
+					url: DOJA_CAT_2,
+					img: DOJA_CAT,
+					time: '3:16',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Cool',
-					time: '3:30',
+					song: 'Rules',
+					url: DOJA_CAT_3,
+					img: DOJA_CAT,
+					time: '3:08',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Physical',
-					time: '3:14',
+					song: 'Bottom Bitch',
+					url: DOJA_CAT_4,
+					img: DOJA_CAT,
+					time: '3:18',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating',
-					time: '3:24',
+					song: 'Say So',
+					url: DOJA_CAT_5,
+					img: DOJA_CAT,
+					time: '3:58',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Pretty Please',
-					time: '3:15',
+					song: 'Like That (con Gucci Mane)',
+					url: DOJA_CAT_6,
+					img: DOJA_CAT,
+					time: '2:44',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Hallucinate',
+					song: 'Talk Dirty',
+					url: DOJA_CAT_7,
+					img: DOJA_CAT,
+					time: '4:02',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Addiction',
+					url: DOJA_CAT_8,
+					img: DOJA_CAT,
+					time: '3:29',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Streets',
+					url: DOJA_CAT_9,
+					img: DOJA_CAT,
+					time: '3:47',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Shine',
+					url: DOJA_CAT_10,
+					img: DOJA_CAT,
+					time: '2:41',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Better Than Me',
+					url: DOJA_CAT_11,
+					img: DOJA_CAT,
 					time: '3:23',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Love Again',
-					time: '4:19',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Break My Hart',
-					time: '3:42',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Good in Bed',
-					time: '3:39',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Boys Will Be Boys',
-					time: '2:47',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Levitating (con DaBaby)',
+					song: 'Juicy',
+					url: DOJA_CAT_12,
+					img: DOJA_CAT,
 					time: '3:24',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Fever',
-					time: '2:37',
 					like: false,
 					dislike: false,
 				},
@@ -405,85 +829,144 @@ const DescriptionDisc = () => {
 			img: POST_MALONE,
 			amount: 1,
 			favorite: false,
-			age: 2020,
-			song: 13,
-			minutes: 43,
+			age: 2019,
+			song: 17,
+			minutes: 51,
+			explicit: true,
 			songs: [
 				{
-					song: 'Future Nostalgia',
-					time: '3:05',
+					song: 'Hollywood’s Bleeding',
+					url: POST_MALONE_1,
+					img: POST_MALONE,
+					time: '2:37',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: "Don't Start Now",
-					time: '3:04',
+					song: 'Saint-Tropez',
+					url: POST_MALONE_2,
+					img: POST_MALONE,
+					time: '2:31',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Cool',
-					time: '3:30',
+					song: 'Enemies (con DaBaby)',
+					url: POST_MALONE_3,
+					img: POST_MALONE,
+					time: '3:17',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Physical',
-					time: '3:14',
+					song: 'Allergic',
+					url: POST_MALONE_4,
+					img: POST_MALONE,
+					time: '2:37',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating',
-					time: '3:24',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Pretty Please',
-					time: '3:15',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Hallucinate',
-					time: '3:23',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Love Again',
-					time: '4:19',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Break My Hart',
+					song: 'A Thousand Bad Times',
+					url: POST_MALONE_5,
+					img: POST_MALONE,
 					time: '3:42',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Good in Bed',
+					song: 'Circles',
+					url: POST_MALONE_6,
+					img: POST_MALONE,
+					time: '3:36',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Die for Me (con Future y Halsey)',
+					url: POST_MALONE_7,
+					img: POST_MALONE,
+					time: '4:06',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'On the Road (con Meek Mill y Lil Baby)',
+					url: POST_MALONE_8,
+					img: POST_MALONE,
 					time: '3:39',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Boys Will Be Boys',
-					time: '2:47',
+					song: 'Take What You Want (con Ozzy Osbourne y Travis Scott)',
+					url: POST_MALONE_9,
+					img: POST_MALONE,
+					time: '3:50',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating (con DaBaby)',
-					time: '3:24',
+					song: "I'm Gonne Be",
+					url: POST_MALONE_10,
+					img: POST_MALONE,
+					time: '3:21',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Fever',
-					time: '2:37',
+					song: 'Staring at the Sun (con SZA)',
+					url: POST_MALONE_11,
+					img: POST_MALONE,
+					time: '2:49',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Sunflower (from "Spider-Man: Into the Spider-Verse")',
+					url: POST_MALONE_12,
+					img: POST_MALONE,
+					time: '2:38',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Internet',
+					url: POST_MALONE_13,
+					img: POST_MALONE,
+					time: '2:04',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Goodbyes (con Young Thug)',
+					url: POST_MALONE_14,
+					img: POST_MALONE,
+					time: '2:55',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Myself',
+					url: POST_MALONE_15,
+					img: POST_MALONE,
+					time: '2:39',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'I Know',
+					url: POST_MALONE_16,
+					img: POST_MALONE,
+					time: '2:22',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Wow.',
+					url: POST_MALONE_17,
+					img: POST_MALONE,
+					time: '2:30',
 					like: false,
 					dislike: false,
 				},
@@ -493,91 +976,126 @@ const DescriptionDisc = () => {
 			artist: 'Ed Sheeran',
 			disk: 'Equals',
 			description:
-				'= (pronunciado como «equals») es el cuarto álbum de estudio del músico y cantautor británico Ed Sheeran, lanzado el 29 de octubre de 2021 por Asylum y Atlantic Records. El álbum fue apoyado por los sencillos Bad Habits, Shivers y Overpass Graffiti, además de Visiting Hours, lanzado como el único sencillo promocional. Recibió críticas mixtas de críticos musicales. El álbum alcanzó el número uno en Australia, Bélgica, Canadá, Dinamarca, Francia, Alemania, Irlanda, Italia, Lituania, Holanda, Nueva Zelanda, Escocia, Suecia, Reino Unido y Estados Unidos. El 18 de agosto de 2021, Sheeran dijo que habría un «gran anuncio» al día siguiente. El 19 de agosto, anunció el álbum y su fecha de lanzamiento en sus redes sociales. Él describió el álbum como su disco de coming-of-age. Sheeran describió el álbum como uno «muy personal y que significa mucho para mí», citando cambios en su vida como el matrimonio, el nacimiento de su hija y pérdidas. En una entrevista con Capital FM el 27 de junio de 2021, Sheeran también declaró que le gustaría ver las canciones que hizo para la película Yesterday aparecieran en una versión reempaquetada del álbum antes de salir de gira para promocionar el disco. ',
+				'= es el cuarto álbum de estudio​​ del músico y cantautor británico Ed Sheeran, lanzado el 29 de octubre de 2021 por Asylum y Atlantic Records.​ El álbum fue apoyado por los sencillos «Bad Habits», «Shivers» y «Overpass Graffiti», además de «Visiting Hours», lanzado como el único sencillo promocional. Recibió críticas mixtas de críticos musicales. El álbum alcanzó el número uno en Australia, Bélgica, Canadá, Dinamarca, Francia, Alemania, Irlanda, Italia, Lituania, Holanda, Nueva Zelanda, Escocia, Suecia, Reino Unido y Estados Unidos.',
 			price: 95.5,
 			id: 5,
 			img: ED_SHEERAN,
 			amount: 1,
 			favorite: false,
-			age: 2020,
-			song: 13,
-			minutes: 43,
+			age: 2021,
+			song: 14,
+			minutes: 48,
+			explicit: false,
 			songs: [
 				{
-					song: 'Future Nostalgia',
-					time: '3:05',
+					song: 'Tides',
+					url: ED_SHEERAN_1,
+					img: ED_SHEERAN,
+					time: '3:16',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: "Don't Start Now",
-					time: '3:04',
+					song: 'Shivers',
+					url: ED_SHEERAN_2,
+					img: ED_SHEERAN,
+					time: '3:28',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Cool',
-					time: '3:30',
+					song: 'First Times',
+					url: ED_SHEERAN_3,
+					img: ED_SHEERAN,
+					time: '3:06',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Physical',
-					time: '3:14',
+					song: 'Bad Habits',
+					url: ED_SHEERAN_4,
+					img: ED_SHEERAN,
+					time: '3:51',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating',
+					song: 'Overpass Graffiti',
+					url: ED_SHEERAN_5,
+					img: ED_SHEERAN,
+					time: '3:57',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'The Joker And The Queen',
+					url: ED_SHEERAN_6,
+					img: ED_SHEERAN,
+					time: '3:06',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Leave Your Life',
+					url: ED_SHEERAN_7,
+					img: ED_SHEERAN,
+					time: '3:44',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Collide',
+					url: ED_SHEERAN_8,
+					img: ED_SHEERAN,
+					time: '3:31',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: '2step',
+					url: ED_SHEERAN_9,
+					img: ED_SHEERAN,
+					time: '2:34',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Stop The Rain',
+					url: ED_SHEERAN_10,
+					img: ED_SHEERAN,
 					time: '3:24',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Pretty Please',
-					time: '3:15',
+					song: 'Love In Slow Motion',
+					url: ED_SHEERAN_11,
+					img: ED_SHEERAN,
+					time: '3:11',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Hallucinate',
-					time: '3:23',
+					song: 'Visiting Hours',
+					url: ED_SHEERAN_12,
+					img: ED_SHEERAN,
+					time: '3:36',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Love Again',
-					time: '4:19',
+					song: 'Sandman',
+					url: ED_SHEERAN_13,
+					img: ED_SHEERAN,
+					time: '4:20',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Break My Hart',
-					time: '3:42',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Good in Bed',
-					time: '3:39',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Boys Will Be Boys',
-					time: '2:47',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Levitating (con DaBaby)',
-					time: '3:24',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Fever',
-					time: '2:37',
+					song: 'Be Right Now',
+					url: ED_SHEERAN_14,
+					img: ED_SHEERAN,
+					time: '3:32',
 					like: false,
 					dislike: false,
 				},
@@ -964,91 +1482,102 @@ const DescriptionDisc = () => {
 			artist: 'Olivia Rodrigo',
 			disk: 'SOUR',
 			description:
-				'Sour (estilizado en mayúsculas; en español: Agrio) es el primer álbum de estudio de la cantautora estadounidense Olivia Rodrigo, publicado el 21 de mayo de 2021 por la compañía discográfica Geffen Records. Rodrigo declaró que el álbum explora los peligros y descubrimientos como joven de diecisiete años y el título hace referencia a las incómodas emociones «agrias» que experimentan los jóvenes pero de las que a menudo se avergüenzan, como la ira, los celos y el corazón roto. El estilo musical de Sour se inspira en los géneros y cantautores favoritos de Rodrigo. Escrito y producido por Daniel Nigro, junto a otros pocos colaboradores, Sour es principalmente pop alternativo que yuxtapone canciones optimistas de rock alternativo y pop punk junto a baladas, impulsadas por guitarras, pianos y sintetizadores. Su temática aborda temas centrados en la adolescencia, el romance fallido y el dolor del corazón contados desde las distintas perspectivas de Rodrigo. Sour recibió aclamación universal de los críticos musicales, que lo consideraron un sólido debut y alabaron la versatilidad musical de Rodrigo, su honesto lirismo y su atractivo para la generación Z. Tres sencillos precedieron al lanzamiento de Sour: «Drivers License», el sencillo debut de Rodrigo y el principal del álbum, que alcanzó la aclamación y el éxito mundial, debutando en el primer puesto del Billboard Hot 100 de Estados Unidos y propulsando a Rodrigo a la fama. Le siguió «Deja Vu», que alcanzó el tercer puesto de la lista, convirtiéndola en la primera artista de la historia del Hot 100 en tener sus dos primeros sencillos dentro del top diez. «Good 4 U» se publicó una semana antes del álbum y debutó en el #1 de la misma lista. El cuarto sencillo, "Brutal" se lanzó el 23 de agosto de 2021, acompañado de un vídeo musical promocional. ',
+				'Sour es el primer álbum de estudio de la cantautora estadounidense Olivia Rodrigo, publicado el 21 de mayo de 2021 por la compañía discográfica Geffen Records. Rodrigo declaró que el álbum explora los peligros y descubrimientos como joven de diecisiete años y el título hace referencia a las incómodas emociones «agrias» que experimentan los jóvenes pero de las que a menudo se avergüenzan, como la ira, los celos y el corazón roto. El estilo musical de Sour se inspira en los géneros y cantautores favoritos de Rodrigo. Escrito y producido por Daniel Nigro, junto a otros pocos colaboradores, Sour es principalmente pop alternativo que yuxtapone canciones optimistas de rock alternativo y pop punk junto a baladas lo-fi, impulsadas por guitarras, pianos y sintetizadores. Su temática aborda temas centrados en la adolescencia, el romance fallido y el dolor del corazón contados desde las distintas perspectivas de Rodrigo. Sour recibió aclamación universal de los críticos musicales, que lo consideraron un sólido debut y alabaron la versatilidad musical de Rodrigo, su honesto lirismo y su atractivo para la generación Z.',
 			price: 120.5,
 			id: 10,
 			img: OLIVIA_RODRIGO,
 			amount: 1,
 			favorite: false,
-			age: 2020,
-			song: 13,
-			minutes: 43,
+			age: 2021,
+			song: 11,
+			minutes: 34,
+			explicit: true,
 			songs: [
 				{
-					song: 'Future Nostalgia',
-					time: '3:05',
+					song: 'brutal',
+					url: OLIVIA_RODRIGO_1,
+					img: OLIVIA_RODRIGO,
+					time: '2:24',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: "Don't Start Now",
-					time: '3:04',
+					song: 'traitor',
+					url: OLIVIA_RODRIGO_3,
+					img: OLIVIA_RODRIGO,
+					time: '3:50',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Cool',
-					time: '3:30',
+					song: 'drivers license',
+					url: OLIVIA_RODRIGO_2,
+					img: OLIVIA_RODRIGO,
+					time: '4:03',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Physical',
-					time: '3:14',
+					song: '1 step forward, 3 steps back',
+					url: OLIVIA_RODRIGO_4,
+					img: OLIVIA_RODRIGO,
+					time: '2:44',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating',
-					time: '3:24',
+					song: 'deja vu',
+					url: OLIVIA_RODRIGO_5,
+					img: OLIVIA_RODRIGO,
+					time: '3:36',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Pretty Please',
-					time: '3:15',
+					song: 'good 4 u',
+					url: OLIVIA_RODRIGO_6,
+					img: OLIVIA_RODRIGO,
+					time: '2:59',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Hallucinate',
-					time: '3:23',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Love Again',
-					time: '4:19',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Break My Hart',
-					time: '3:42',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Good in Bed',
+					song: 'enough for you',
+					url: OLIVIA_RODRIGO_7,
+					img: OLIVIA_RODRIGO,
 					time: '3:39',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Boys Will Be Boys',
-					time: '2:47',
+					song: 'happier',
+					url: OLIVIA_RODRIGO_8,
+					img: OLIVIA_RODRIGO,
+					time: '2:56',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating (con DaBaby)',
-					time: '3:24',
+					song: 'jealousy, jealousy',
+					url: OLIVIA_RODRIGO_9,
+					img: OLIVIA_RODRIGO,
+					time: '2:54',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Fever',
-					time: '2:37',
+					song: 'favorite crime',
+					url: OLIVIA_RODRIGO_10,
+					img: OLIVIA_RODRIGO,
+					time: '2:33',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'hope ur ok',
+					url: OLIVIA_RODRIGO_11,
+					img: OLIVIA_RODRIGO,
+					time: '3:30',
 					like: false,
 					dislike: false,
 				},
@@ -1259,7 +1788,8 @@ const DescriptionDisc = () => {
 								<h2 className="description-disk__artist">{item.artist}</h2>
 								<div className="description-disk__container-data-disk">
 									<div className="description-disk__row-first">
-										<MdExplicit /> Album • <span>{item.artist}</span> • <span>{item.age}</span>
+										{item.explicit === true ? <MdExplicit /> : null} Album •{' '}
+										<span>{item.artist}</span> • <span>{item.age}</span>
 									</div>
 									<div className="description-disk__row-second">
 										<span>{item.song} canciones</span> • <span>{item.minutes} minutos</span>
