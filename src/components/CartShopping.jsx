@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CardPriceProduct from './CardPriceProduct';
-import '../css/carrito.css';
+import '../css/cartShopping.css';
 
 const CartShopping = ({ cartProducts, removeProductFromCart, filterAmount }) => {
 	const [total, setTotal] = useState(0);
@@ -15,8 +15,8 @@ const CartShopping = ({ cartProducts, removeProductFromCart, filterAmount }) => 
 
 	return (
 		<>
-			<div className="carrito__container">
-				<h3>Precio Total</h3>
+			<div className="cart-shopping">
+				<h3 className="cart-shopping__title">Precio Total</h3>
 				{cartProducts.map((item) => (
 					<CardPriceProduct
 						item={item}
@@ -25,8 +25,8 @@ const CartShopping = ({ cartProducts, removeProductFromCart, filterAmount }) => 
 						filterAmount={filterAmount}
 					/>
 				))}
-				<p className="total">Total de la orden: ${total} USD</p>
-				<button>Pagar</button>
+				<p className="cart-shopping__total">Total de la orden: ${total} USD</p>
+				<button className="cart-shopping__button">Pagar</button>
 			</div>
 		</>
 	);

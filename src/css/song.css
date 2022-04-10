@@ -1,0 +1,37 @@
+.song {
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	align-items: center;
+	border-bottom: 1.5px solid rgb(39, 39, 39);
+	padding: 10px 0;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.song__name {
+	flex-grow: 1;
+	margin-left: 1.5rem;
+	font-weight: bold;
+}
+
+.song__container-like {
+	margin-right: 2rem;
+	font-size: 1.5rem;
+	color: transparent;
+}
+
+.song__like {
+	margin-right: 1rem;
+}
+
+.song:hover .song__container-like {
+	color: #fff;
+}
+
+.song__img {
+	height: 30px;
+	width: 30px;
+	border-radius: 5px;
+}

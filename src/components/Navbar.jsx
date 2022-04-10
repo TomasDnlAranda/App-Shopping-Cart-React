@@ -5,7 +5,7 @@ import ModalFavoriteSection from './ModalFavoriteSection';
 const Navbar = ({ favoriteDiscs }) => {
 	return (
 		<>
-			<nav>
+			<nav className="navbar">
 				<ModalFavoriteSection favoriteDiscs={favoriteDiscs} />
 			</nav>
 		</>

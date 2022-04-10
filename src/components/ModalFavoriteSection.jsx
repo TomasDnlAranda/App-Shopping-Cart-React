@@ -9,12 +9,22 @@ const ModalFavoriteSection = ({ favoriteDiscs }) => {
 	const modalFavoriteDiscs = () => {
 		setStateModalFavoriteDisc(!stateModalFavoriteDisc);
 	};
+
 	return (
 		<>
-			<IconHeart className="icon-heart" onClick={() => modalFavoriteDiscs()}></IconHeart>
-			<div className={stateModalFavoriteDisc === true ? 'esconder-modal' : 'appear-modal'}>
-				<div className="container-text">
-					<h1>Tus Favoritos</h1>
+			<IconHeart
+				className="modal-favorite__icon-heart"
+				onClick={() => modalFavoriteDiscs()}
+			></IconHeart>
+			<div
+				className={
+					stateModalFavoriteDisc === true
+						? 'modal-favorite__esconder-modal'
+						: 'modal-favorite__appear-modal'
+				}
+			>
+				<div className="modal-favorite__container-text">
+					<h1 className="modal-favorite__title">Tus Favoritos</h1>
 					{favoriteDiscs.map((item) => (
 						<CardFavorite item={item} key={item.id} />
 					))}

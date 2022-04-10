@@ -14,7 +14,12 @@ import OLIVIA_RODRIGO from '../image/artista-olivia-rodrigo.jpg';
 import GREEN_DAY from '../image/artista-green-day.jpg';
 import BTS from '../image/artista-bts.jpg';
 
-const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite }) => {
+const Product = ({
+	addProductToCart,
+	addDiscsToFavorites,
+	removeDiscsToFavorite,
+	changeValidation,
+}) => {
 	const [data, setData] = useState([
 		{
 			artist: 'Dua Lipa',
@@ -41,6 +46,8 @@ const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite 
 		{
 			artist: 'Doja Cat',
 			disk: 'Hot Pink',
+			description:
+				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
 			price: 65,
 			id: 3,
 			img: DOJA_CAT,
@@ -50,6 +57,8 @@ const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite 
 		{
 			artist: 'Post Malone',
 			disk: 'Hollywood’s Bleeding',
+			description:
+				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
 			price: 57.5,
 			id: 4,
 			img: POST_MALONE,
@@ -59,6 +68,8 @@ const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite 
 		{
 			artist: 'Ed Sheeran',
 			disk: 'Equals',
+			description:
+				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
 			price: 95.5,
 			id: 5,
 			img: ED_SHEERAN,
@@ -69,6 +80,8 @@ const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite 
 			artist: 'Halsey',
 			disk: 'Manic',
 			price: 65,
+			description:
+				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
 			id: 6,
 			img: HALSEY,
 			amount: 1,
@@ -78,6 +91,8 @@ const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite 
 			artist: 'Maroon 5',
 			disk: 'Jordi',
 			price: 85.2,
+			description:
+				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
 			id: 7,
 			img: MAROON_5,
 			amount: 1,
@@ -86,6 +101,8 @@ const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite 
 		{
 			artist: 'Lil Nas X',
 			disk: 'MONTERO',
+			description:
+				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
 			price: 102.9,
 			id: 8,
 			img: LIL_NAS_X,
@@ -95,6 +112,8 @@ const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite 
 		{
 			artist: 'Green	Day',
 			disk: '21st Century Breakdown',
+			description:
+				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
 			price: 25,
 			id: 9,
 			img: GREEN_DAY,
@@ -104,6 +123,8 @@ const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite 
 		{
 			artist: 'Olivia Rodrigo',
 			disk: 'SOUR',
+			description:
+				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
 			price: 120.5,
 			id: 10,
 			img: OLIVIA_RODRIGO,
@@ -113,6 +134,8 @@ const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite 
 		{
 			artist: 'BTS',
 			disk: 'Butter',
+			description:
+				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
 			price: 88.2,
 			id: 11,
 			img: BTS,
@@ -122,6 +145,8 @@ const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite 
 		{
 			artist: 'Tame Impala',
 			disk: 'Currents',
+			description:
+				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
 			price: 56.5,
 			id: 12,
 			img: TAME_IMPALA,
@@ -135,21 +160,20 @@ const Product = ({ addProductToCart, addDiscsToFavorites, removeDiscsToFavorite 
 			item.id === id ? { ...item, favorite: !item.favorite } : item
 		);
 		setData(changeStateHeartCard);
-		addDiscsToFavorites(item, id);
-		if (favorite === true) {
-			removeDiscsToFavorite(item, id);
-		}
+
+		favorite ? removeDiscsToFavorite(item, id) : addDiscsToFavorites(item, id);
 	};
 
 	return (
 		<>
-			<div className="container-product">
+			<div className="product">
 				{data.map((item) => (
 					<CardProduct
 						key={item.id}
 						item={item}
 						addProductToCart={addProductToCart}
 						addProductToFavorite={addProductToFavorite}
+						changeValidation={changeValidation}
 					/>
 				))}
 			</div>
