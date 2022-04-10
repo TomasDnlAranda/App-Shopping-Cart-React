@@ -1,0 +1,22 @@
+.audio {
+	background: #f1f3f4;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	z-index: 3;
+}
+.audio audio {
+	width: 100%;
+	background-color: #f1f3f4;
+}
+
+.audio h2 {
+	font-size: 1.6rem;
+	font-weight: 700;
+	color: rgb(13, 19, 54);
+	margin: 0;
+	margin-top: 10px;
+	text-align: center;
+}

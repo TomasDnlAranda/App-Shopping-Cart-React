@@ -3,10 +3,12 @@ import Product from './components/Product';
 import CartShopping from './components/CartShopping';
 import { useState } from 'react';
 import './css/app.css';
+import { Outlet } from 'react-router-dom';
 
 function App() {
 	const [cartProducts, setCartProducts] = useState([]);
 	const [favoriteDiscs, setfavoriteDiscs] = useState([]);
+	let [validation, setValidation] = useState(false);
 
 	const addProductToCart = (product) => {
 		const index = cartProducts.findIndex((item) => item.id === product.id);
@@ -44,25 +46,34 @@ function App() {
 		setfavoriteDiscs(removeDisc);
 	};
 
+	const changeValidation = () => {
+		setValidation(!validation);
+	};
+
 	return (
 		<>
 			<Navbar favoriteDiscs={favoriteDiscs} />
-			<div className="container">
-				<div className="container-left">
-					<Product
-						addProductToCart={addProductToCart}
-						addDiscsToFavorites={addDiscsToFavorites}
-						removeDiscsToFavorite={removeDiscsToFavorite}
-					/>
+			{validation ? (
+				<Outlet />
+			) : (
+				<div className="app">
+					<div className="app__section-left">
+						<Product
+							addProductToCart={addProductToCart}
+							addDiscsToFavorites={addDiscsToFavorites}
+							removeDiscsToFavorite={removeDiscsToFavorite}
+							changeValidation={changeValidation}
+						/>
+					</div>
+					<div className="app__section-rigth">
+						<CartShopping
+							cartProducts={cartProducts}
+							removeProductFromCart={removeProductFromCart}
+							filterAmount={filterAmount}
+						/>
+					</div>
 				</div>
-				<div className="container-right">
-					<CartShopping
-						cartProducts={cartProducts}
-						removeProductFromCart={removeProductFromCart}
-						filterAmount={filterAmount}
-					/>
-				</div>
-			</div>
+			)}
 		</>
 	);
 }

@@ -1,4 +1,4 @@
-nav {
+.navbar {
 	color: #ffffff;
 	background: #243074;
 	padding: 1rem;
@@ -7,13 +7,4 @@ nav {
 	box-shadow: -7px 0px 45px -1px rgba(0, 0, 0, 0.75);
 	-webkit-box-shadow: -7px 0px 45px -1px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: -7px 0px 45px -1px rgba(0, 0, 0, 0.75);
-}
-
-nav h1 {
-	font-family: 'Poppins', sans-serif;
-	color: #ffffff;
-	font-size: 1.5rem;
-	font-weight: 500;
-	padding: 0.75rem;
-	margin: 0;
 }

@@ -1,14 +1,14 @@
-.icon-heart {
+.modal-favorite__icon-heart {
 	color: rgb(241, 241, 241);
 	font-size: 1.5rem;
 	cursor: pointer;
 }
 
-.icon-heart:hover {
+.modal-favorite__icon-heart:hover {
 	color: #fffb02;
 }
 
-.appear-modal {
+.modal-favorite__appear-modal {
 	position: absolute;
 	right: -35%;
 	width: 35%;
@@ -17,12 +17,12 @@
 	-moz-transition: all 0.3s 0s ease;
 	-o-transition: all 0.3s 0s ease;
 	transition: all 0.3s 0s ease;
-	height: 100%;
 	background: #130e41;
 	user-select: none;
+	height: 100%;
 }
 
-.esconder-modal {
+.modal-favorite__esconder-modal {
 	position: absolute;
 	width: 35%;
 	top: 56px;
@@ -36,7 +36,7 @@
 	height: 100%;
 }
 
-.container-text {
+.modal-favorite__container-text {
 	color: #3a3a3a;
 	display: flex;
 	flex-direction: column;
@@ -45,11 +45,11 @@
 	width: 100%;
 }
 
-.container-text h1 {
+.modal-favorite__container-text .modal-favorite__title {
 	margin: 0 auto;
 }
-.esconder-modal,
-.appear-modal {
+.modal-favorite__esconder-modal,
+.modal-favorite__appear-modal {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-around;

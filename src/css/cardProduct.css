@@ -1,4 +1,4 @@
-.card__container {
+.card-product {
 	border: 1px solid #cacaca;
 	width: -webkit-max-content;
 	width: -moz-max-content;
@@ -13,32 +13,32 @@
 	user-select: none;
 }
 
-.card__container .card__container-img img {
+.card-product .card-product__container-img .card-product__img {
 	width: 200px;
 	border-radius: 10px;
 	height: auto;
 }
 
-.card__container h4 {
+.card-product h4 {
 	color: #4636d4;
 	font-size: 1rem;
 	font-weight: bold;
 	text-align: center;
 }
 
-.card__container h3 {
+.card-product h3 {
 	text-align: center;
 	margin: 0.5rem 0 0;
 }
 
-.card__container p {
+.card-product p {
 	color: #555555;
 	font-size: 0.75rem;
 	font-weight: bolder;
 	text-align: center;
 }
 
-.card__container button {
+.card-product button {
 	color: #ffffff;
 	background: #4c39ff;
 	border: none;
@@ -52,25 +52,20 @@
 	cursor: pointer;
 }
 
-.card__container button:hover {
+.card-product button:hover {
 	background: #2f2399;
 }
 
-.remove-favorite {
+.card-product__remove-favorite {
 	color: #2f2399;
 	cursor: pointer;
 }
 
-.add-favorite:hover {
+.card-product__add-favorite {
 	color: #fffb02;
 	cursor: pointer;
 }
-
-.add-favorite {
-	color: #fffb02;
-	cursor: pointer;
-}
-.container-button {
+.card-product__container-button {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

@@ -1,4 +1,4 @@
-.container {
+.app {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -8,12 +8,12 @@
 	flex-direction: row;
 }
 
-.container-left {
+.app__section-left {
 	background-color: rgb(255, 255, 255);
 	width: 65%;
 }
 
-.container-right {
+.app__section-rigth {
 	background-color: rgb(255, 255, 255);
 	width: 35%;
 	justify-content: center;

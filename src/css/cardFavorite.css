@@ -1,11 +1,11 @@
-.container-favorite {
+.card-favorite {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 	width: 100%;
 	margin: 5px 0;
 }
-img {
+.card-favorite .card-favorite___container .card-favorite___img {
 	height: 30px;
 	width: 30px;
 	border-radius: 5px;
@@ -15,18 +15,14 @@ img {
 	width: 20%;
 }
 
-.disk-fav {
+.card-favorite___disk {
 	font-size: 0.85rem;
 	width: 25%;
 	color: #fff;
 }
 
-.artist-fav {
+.card-favorite___artist {
 	font-size: 0.85rem;
 	width: 25%;
 	color: #fff;
-}
-
-.icon-delete-fav {
-	color: #df0000;
 }
