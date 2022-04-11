@@ -35,3 +35,7 @@
 	width: 30px;
 	border-radius: 5px;
 }
+
+.song__explicit {
+	margin-right: 5rem;
+}
