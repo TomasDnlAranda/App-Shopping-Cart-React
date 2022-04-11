@@ -11,15 +11,16 @@ import THE_WEEKEND from '../image/artista-the-weekend.jpg';
 import DOJA_CAT from '../image/artista-doja-cat.jpg';
 import POST_MALONE from '../image/artista-post-malone.jpg';
 import ED_SHEERAN from '../image/artista-ed-sheeran.jpg';
-import HALSEY from '../image/artista-halsey.jpg';
+import SHAWN_MENDES from '../image/artista-shawn-mendes.jpg';
 import LIL_NAS_X from '../image/artista-lil-nas-x.jpg';
-import MAROON_5 from '../image/artista-maroon-5.jpg';
+import MAROON_FIVE from '../image/artista-maroon-5.jpg';
 import OLIVIA_RODRIGO from '../image/artista-olivia-rodrigo.jpg';
-import GREEN_DAY from '../image/artista-green-day.jpg';
+import XXXTENTACION from '../image/artista-xxxtentacion.jpg';
 import BTS from '../image/artista-bts.jpg';
 import TOP from '../image/artista-top.jpg';
 import THE_NEIGHBOURHOOD from '../image/artist-the-neighbourhood.jpg';
 import NIRVANA from '../image/artista-nirvana.jpg';
+import AVICII from '../image/artista-avicii.jpg';
 
 import DUA_LIPA_1 from '../audio/dua-lipa/1.ogg';
 import DUA_LIPA_2 from '../audio/dua-lipa/2.ogg';
@@ -142,6 +143,98 @@ import POST_MALONE_14 from '../audio/post-malone/14.ogg';
 import POST_MALONE_15 from '../audio/post-malone/15.ogg';
 import POST_MALONE_16 from '../audio/post-malone/16.ogg';
 import POST_MALONE_17 from '../audio/post-malone/17.ogg';
+
+import SHAWN_MENDES_1 from '../audio/shawn-mendes/1.ogg';
+import SHAWN_MENDES_2 from '../audio/shawn-mendes/2.ogg';
+import SHAWN_MENDES_3 from '../audio/shawn-mendes/3.ogg';
+import SHAWN_MENDES_4 from '../audio/shawn-mendes/4.ogg';
+import SHAWN_MENDES_5 from '../audio/shawn-mendes/5.ogg';
+import SHAWN_MENDES_6 from '../audio/shawn-mendes/6.ogg';
+import SHAWN_MENDES_7 from '../audio/shawn-mendes/7.ogg';
+import SHAWN_MENDES_8 from '../audio/shawn-mendes/8.ogg';
+import SHAWN_MENDES_9 from '../audio/shawn-mendes/9.ogg';
+import SHAWN_MENDES_10 from '../audio/shawn-mendes/10.ogg';
+import SHAWN_MENDES_11 from '../audio/shawn-mendes/11.ogg';
+import SHAWN_MENDES_12 from '../audio/shawn-mendes/12.ogg';
+import SHAWN_MENDES_13 from '../audio/shawn-mendes/13.ogg';
+import SHAWN_MENDES_14 from '../audio/shawn-mendes/14.ogg';
+import SHAWN_MENDES_15 from '../audio/shawn-mendes/15.ogg';
+import SHAWN_MENDES_16 from '../audio/shawn-mendes/16.ogg';
+
+import MAROON_FIVE_1 from '../audio/maroon-five/1.ogg';
+import MAROON_FIVE_2 from '../audio/maroon-five/2.ogg';
+import MAROON_FIVE_3 from '../audio/maroon-five/3.ogg';
+import MAROON_FIVE_4 from '../audio/maroon-five/4.ogg';
+import MAROON_FIVE_5 from '../audio/maroon-five/5.ogg';
+import MAROON_FIVE_6 from '../audio/maroon-five/6.ogg';
+import MAROON_FIVE_7 from '../audio/maroon-five/7.ogg';
+import MAROON_FIVE_8 from '../audio/maroon-five/8.ogg';
+import MAROON_FIVE_9 from '../audio/maroon-five/9.ogg';
+import MAROON_FIVE_10 from '../audio/maroon-five/10.ogg';
+import MAROON_FIVE_11 from '../audio/maroon-five/11.ogg';
+import MAROON_FIVE_12 from '../audio/maroon-five/12.ogg';
+import MAROON_FIVE_13 from '../audio/maroon-five/13.ogg';
+import MAROON_FIVE_14 from '../audio/maroon-five/14.ogg';
+
+import LIL_NAS_1 from '../audio/lil-nas-x/1.ogg';
+import LIL_NAS_2 from '../audio/lil-nas-x/2.ogg';
+import LIL_NAS_3 from '../audio/lil-nas-x/3.ogg';
+import LIL_NAS_4 from '../audio/lil-nas-x/4.ogg';
+import LIL_NAS_5 from '../audio/lil-nas-x/5.ogg';
+import LIL_NAS_6 from '../audio/lil-nas-x/6.ogg';
+import LIL_NAS_7 from '../audio/lil-nas-x/7.ogg';
+import LIL_NAS_8 from '../audio/lil-nas-x/8.ogg';
+import LIL_NAS_9 from '../audio/lil-nas-x/9.ogg';
+import LIL_NAS_10 from '../audio/lil-nas-x/10.ogg';
+import LIL_NAS_11 from '../audio/lil-nas-x/11.ogg';
+import LIL_NAS_12 from '../audio/lil-nas-x/12.ogg';
+import LIL_NAS_13 from '../audio/lil-nas-x/13.ogg';
+import LIL_NAS_14 from '../audio/lil-nas-x/14.ogg';
+import LIL_NAS_15 from '../audio/lil-nas-x/15.ogg';
+
+import XXXTENTACION_1 from '../audio/xxxtentacion/1.ogg';
+import XXXTENTACION_2 from '../audio/xxxtentacion/2.ogg';
+import XXXTENTACION_3 from '../audio/xxxtentacion/3.ogg';
+import XXXTENTACION_4 from '../audio/xxxtentacion/4.ogg';
+import XXXTENTACION_5 from '../audio/xxxtentacion/5.ogg';
+import XXXTENTACION_6 from '../audio/xxxtentacion/6.ogg';
+import XXXTENTACION_7 from '../audio/xxxtentacion/7.ogg';
+import XXXTENTACION_8 from '../audio/xxxtentacion/8.ogg';
+import XXXTENTACION_9 from '../audio/xxxtentacion/9.ogg';
+import XXXTENTACION_10 from '../audio/xxxtentacion/10.ogg';
+import XXXTENTACION_11 from '../audio/xxxtentacion/11.ogg';
+import XXXTENTACION_12 from '../audio/xxxtentacion/12.ogg';
+import XXXTENTACION_13 from '../audio/xxxtentacion/13.ogg';
+import XXXTENTACION_14 from '../audio/xxxtentacion/14.ogg';
+import XXXTENTACION_15 from '../audio/xxxtentacion/15.ogg';
+import XXXTENTACION_16 from '../audio/xxxtentacion/16.ogg';
+import XXXTENTACION_17 from '../audio/xxxtentacion/17.ogg';
+import XXXTENTACION_18 from '../audio/xxxtentacion/18.ogg';
+
+import AVICII_1 from '../audio/avicii/1.ogg';
+import AVICII_2 from '../audio/avicii/2.ogg';
+import AVICII_3 from '../audio/avicii/3.ogg';
+import AVICII_4 from '../audio/avicii/4.ogg';
+import AVICII_5 from '../audio/avicii/5.ogg';
+import AVICII_6 from '../audio/avicii/6.ogg';
+import AVICII_7 from '../audio/avicii/7.ogg';
+import AVICII_8 from '../audio/avicii/8.ogg';
+import AVICII_9 from '../audio/avicii/9.ogg';
+import AVICII_10 from '../audio/avicii/10.ogg';
+
+import TAME_IMPALA_1 from '../audio/tame-impala/1.ogg';
+import TAME_IMPALA_2 from '../audio/tame-impala/2.ogg';
+import TAME_IMPALA_3 from '../audio/tame-impala/3.ogg';
+import TAME_IMPALA_4 from '../audio/tame-impala/4.ogg';
+import TAME_IMPALA_5 from '../audio/tame-impala/5.ogg';
+import TAME_IMPALA_6 from '../audio/tame-impala/6.ogg';
+import TAME_IMPALA_7 from '../audio/tame-impala/7.ogg';
+import TAME_IMPALA_8 from '../audio/tame-impala/8.ogg';
+import TAME_IMPALA_9 from '../audio/tame-impala/9.ogg';
+import TAME_IMPALA_10 from '../audio/tame-impala/10.ogg';
+import TAME_IMPALA_11 from '../audio/tame-impala/11.ogg';
+import TAME_IMPALA_12 from '../audio/tame-impala/12.ogg';
+import TAME_IMPALA_13 from '../audio/tame-impala/13.ogg';
 
 const DescriptionDisc = () => {
 	let { id } = useParams();
@@ -1102,94 +1195,145 @@ const DescriptionDisc = () => {
 			],
 		},
 		{
-			artist: 'Halsey',
-			disk: 'Manic',
-			price: 65,
+			artist: 'Shawn Mendes',
+			disk: 'Illuminate (Deluxe)',
+			price: 102.7,
 			description:
-				'Manic es el tercer álbum de estudio de la cantante estadounidense Halsey. Fue lanzado el 17 de enero de 2020, a través de Capitol Records. Presenta colaboraciones especiales de Dominic Fike, Alanis Morissette y Suga de BTS, además de la aparición Kate Winslet, John Mayer,  Amanda Seyfried y Megan Fox. Musicalmente, es un disco de electropop, hip hop y rock alternativo con influencias de varios otros géneros, como country, K-pop, pop, R&B, entre otros. La producción fue manejada por la propia Halsey, siendo su primer álbum en hacerlo, junto con sus frecuentes colaboradores, como Benny Blanco, Cashmere Cat, Lido y Greg Kurstin, así como nuevos productores como Jon Bellion, FINNEAS, Louis Bell y The Monsters and the Strangerz, entre otros. El álbum fue promocionado por el lanzamiento de tres sencillos: Without Me, Graveyard y You Should Be Sad y tres sencillos promocionales: Clementine, Finally // Beautiful Stranger y Sugas Interlude.',
+				'Illuminate es el segundo álbum de estudio del cantante y compositor canadiense Shawn Mendes. Uno de los más vendidos del 2016. Fue lanzado el 23 de septiembre de 2016, bajo Island Records y Universal Music. Hasta agosto del 2017 el álbum ha vendido más de 2.2 millones de copias alrededor del mundo.​',
 			id: 6,
-			img: HALSEY,
+			img: SHAWN_MENDES,
 			amount: 1,
 			favorite: false,
-			age: 2020,
-			song: 13,
-			minutes: 43,
+			age: 2016,
+			song: 16,
+			minutes: 55,
+			explicit: false,
 			songs: [
 				{
-					song: 'Future Nostalgia',
-					time: '3:05',
+					song: "There's Nothing Holdin' Me Back",
+					url: SHAWN_MENDES_1,
+					img: SHAWN_MENDES,
+					time: '3:19',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: "Don't Start Now",
-					time: '3:04',
+					song: 'Ruin',
+					url: SHAWN_MENDES_2,
+					img: SHAWN_MENDES,
+					time: '4:01',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Cool',
-					time: '3:30',
+					song: 'Mercy',
+					url: SHAWN_MENDES_3,
+					img: SHAWN_MENDES,
+					time: '3:28',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Physical',
-					time: '3:14',
+					song: 'Treat You Better',
+					url: SHAWN_MENDES_4,
+					img: SHAWN_MENDES,
+					time: '3:07',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating',
-					time: '3:24',
+					song: 'Three Empty Words',
+					url: SHAWN_MENDES_5,
+					img: SHAWN_MENDES,
+					time: '3:19',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Pretty Please',
-					time: '3:15',
+					song: "Dont't Be A Fool",
+					url: SHAWN_MENDES_6,
+					img: SHAWN_MENDES,
+					time: '3:35',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Hallucinate',
-					time: '3:23',
+					song: 'Like This',
+					url: SHAWN_MENDES_7,
+					img: SHAWN_MENDES,
+					time: '3:06',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Love Again',
-					time: '4:19',
+					song: 'No Promises',
+					url: SHAWN_MENDES_8,
+					img: SHAWN_MENDES,
+					time: '2:46',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Break My Hart',
-					time: '3:42',
+					song: 'Lights On',
+					url: SHAWN_MENDES_9,
+					img: SHAWN_MENDES,
+					time: '3:21',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Good in Bed',
+					song: 'Honest',
+					url: SHAWN_MENDES_10,
+					img: SHAWN_MENDES,
+					time: '3:19',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Patience',
+					url: SHAWN_MENDES_11,
+					img: SHAWN_MENDES,
+					time: '2:55',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Bad Reputation',
+					url: SHAWN_MENDES_12,
+					img: SHAWN_MENDES,
+					time: '3:18',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Understand',
+					url: SHAWN_MENDES_13,
+					img: SHAWN_MENDES,
+					time: '5:00',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Hold On',
+					url: SHAWN_MENDES_14,
+					img: SHAWN_MENDES,
+					time: '3:19',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Roses',
+					url: SHAWN_MENDES_15,
+					img: SHAWN_MENDES,
+					time: '3:52',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Mercy (Acoustic)',
+					url: SHAWN_MENDES_16,
+					img: SHAWN_MENDES,
 					time: '3:39',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Boys Will Be Boys',
-					time: '2:47',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Levitating (con DaBaby)',
-					time: '3:24',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Fever',
-					time: '2:37',
 					like: false,
 					dislike: false,
 				},
@@ -1197,93 +1341,128 @@ const DescriptionDisc = () => {
 		},
 		{
 			artist: 'Maroon 5',
-			disk: 'Jordi',
+			disk: 'JORDI (Deluxe)',
 			price: 85.2,
 			description:
 				'Jordi es el séptimo álbum de estudio de la banda estadounidense Maroon 5. Se lanzó el 11 de junio de 2021, a través de 222, Interscope y Polydor Records. El álbum lleva el título del difunto manager de la banda, Jordan Feldstein, a quien el líder de la banda, Adam Levine, se refirió como "Jordi". El álbum es el primero que no presenta al bajista Mickey Madden, luego de su salida de la banda en 2020. El álbum ha producido dos sencillos anticipadamente. El primer sencillo principal, "Nobodys Love", fue lanzado el 24 de julio de 2020. La canción se inspiró en la pandemia de COVID-19 y las protestas de George Floyd. La canción alcanzó el puesto 41 y 119 en el Billboard Hot 100 y el Billboard Global 200 en Estados Unidos, respectivamente. El segundo sencillo, "Beautiful Mistakes" con la colaboración de la rapera estadounidense Megan Thee Stallion, fue lanzado el 3 de marzo de 2021, con un video con letra lanzado el mismo día. El video musical oficial fue lanzado el 12 de marzo de 2021 y fue dirigido por Sophie Muller. La canción alcanzó el puesto 18 y 26 en el Billboard Hot 100 y Global 200, respectivamente. ',
 			id: 7,
-			img: MAROON_5,
+			img: MAROON_FIVE,
 			amount: 1,
 			favorite: false,
-			age: 2020,
-			song: 13,
+			age: 2021,
+			song: 14,
 			minutes: 43,
+			explicit: true,
 			songs: [
 				{
-					song: 'Future Nostalgia',
-					time: '3:05',
+					song: 'Beautiful Mistakes',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_1,
+					time: '3:48',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: "Don't Start Now",
-					time: '3:04',
+					song: 'Lost',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_2,
+					time: '2:53',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Cool',
-					time: '3:30',
+					song: 'Echo (con blackbear)',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_3,
+					time: '2:59',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Physical',
-					time: '3:14',
+					song: 'Lovesick',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_4,
+					time: '3:06',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating',
-					time: '3:24',
+					song: 'Remedy (con Stavie Nicks)',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_5,
+					time: '2:30',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Pretty Please',
-					time: '3:15',
+					song: 'Seasons',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_6,
+					time: '2:49',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Hallucinate',
-					time: '3:23',
+					song: 'One Light (con Bantu)',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_7,
+					time: '3:35',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Love Again',
-					time: '4:19',
+					song: 'Convince Me Otherwise',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_8,
+					time: '3:08',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Break My Hart',
-					time: '3:42',
+					song: "Nobody's Love",
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_9,
+					time: '3:32',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Good in Bed',
-					time: '3:39',
+					song: "Can't Leave You Alone (con Juice WRLD)",
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_10,
+					time: '3:17',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Boys Will Be Boys',
-					time: '2:47',
+					song: 'Memories',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_11,
+					time: '3:10',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating (con DaBaby)',
-					time: '3:24',
+					song: 'Memories Remix (con Nipsey Hussle y YG)',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_12,
+					time: '3:10',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Fever',
-					time: '2:37',
+					song: 'Button (con Anuel AA y Tainy)',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_13,
+					time: '2:45',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Lifestyle (con Adam Levine)',
+					img: MAROON_FIVE,
+					url: MAROON_FIVE_14,
+					time: '2:34',
 					like: false,
 					dislike: false,
 				},
@@ -1293,186 +1472,295 @@ const DescriptionDisc = () => {
 			artist: 'Lil Nas X',
 			disk: 'MONTERO',
 			description:
-				'Montero (estilizado en mayúsculas) es el álbum debut de estudio del rapero y cantante estadounidense Lil Nas X, lanzado el 17 de septiembre de 2021 por Columbia Records. El álbum, titulado con su nombre de pila, se anunció por primera vez en 2019. Su título, portada y lista de canciones se dieron a conocer en 2021. Cuatro sencillos acompañaron a Montero, "Montero (Call Me by Your Name)", " Sun Goes Down”, “Industry Baby”, y “Thats What I Want”. "Montero (Call Me by Your Name)" e "Industry Baby" encabezaron cada uno el Billboard Hot 100 de EE.UU., mientras que "Thats What I Want" entró al Top 10.El álbum presenta apariciones especiales de Jack Harlow, Doja Cat, Elton John, Megan Thee Stallion y Miley Cyrus. Musicalmente, Montero es un disco de pop rap con influencias de varios otros géneros. Recibió elogios de los críticos musicales, quienes elogiaron su producción ecléctica y su composición pegadiza. En la 64 Entrega Anual de los Premios Grammy, recibió una nominación a Álbum del Año logrando su segunda nominación consecutiva en la categoría, mientras que “Montero (Call Me by Your Name)” está nominado a Grabación del Año, Canción del año y Mejor video musical e "Industry Baby" está nominado a Mejor interpretación de rap, respectivamente. Comercialmente, el álbum encabezó las listas en Australia, Dinamarca, Irlanda, Nueva Zelanda, Noruega y Suecia, y entró en el top 10 en otros territorios. ',
+				'Montero es el álbum debut de estudio del rapero y cantante estadounidense Lil Nas X, lanzado el 17 de septiembre de 2021 por Columbia Records. El álbum, titulado con su nombre de pila, se anunció por primera vez en 2019. Su título, portada y lista de canciones se dieron a conocer en 2021. Cuatro sencillos acompañaron a Montero, "Montero", " Sun Goes Down”, “Industry Baby”, y “Thats What I Want”. "Montero" e "Industry Baby" encabezaron cada uno el Billboard Hot 100 de EE.UU., mientras que "Thats What I Want" entró al Top 10. El álbum presenta apariciones especiales de Jack Harlow, Doja Cat, Elton John, Megan Thee Stallion y Miley Cyrus. Musicalmente, Montero es un disco de pop rap con influencias de varios otros géneros. Recibió elogios de los críticos musicales, quienes elogiaron su producción ecléctica y su composición pegadiza. En la 64ª Entrega Anual de los Premios Grammy, recibió una nominación a Álbum del Año logrando su segunda nominación consecutiva en la categoría, mientras que “Montero ” está nominado a Grabación del Año, Canción del año y Mejor video musical e "Industry Baby" está nominado a Mejor interpretación de rap, respectivamente.',
 			price: 102.9,
 			id: 8,
 			img: LIL_NAS_X,
 			amount: 1,
 			favorite: false,
-			age: 2020,
-			song: 13,
-			minutes: 43,
+			age: 2021,
+			song: 15,
+			minutes: 41,
+			explicit: true,
 			songs: [
 				{
-					song: 'Future Nostalgia',
-					time: '3:05',
+					song: 'MONTERO (Call Me By Your Name)',
+					time: '2:18',
+					img: LIL_NAS_X,
+					url: LIL_NAS_1,
 					like: false,
 					dislike: false,
 				},
 				{
-					song: "Don't Start Now",
-					time: '3:04',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Cool',
-					time: '3:30',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Physical',
-					time: '3:14',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Levitating',
-					time: '3:24',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Pretty Please',
-					time: '3:15',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Hallucinate',
-					time: '3:23',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Love Again',
-					time: '4:19',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Break My Hart',
+					song: 'DEAD RIGHT NOW',
 					time: '3:42',
+					img: LIL_NAS_X,
+					url: LIL_NAS_2,
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Good in Bed',
-					time: '3:39',
+					song: 'INDUSTRY BABY',
+					time: '3:33',
+					img: LIL_NAS_X,
+					url: LIL_NAS_3,
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Boys Will Be Boys',
-					time: '2:47',
+					song: 'THATS WHAT I WANT',
+					time: '2:24',
+					img: LIL_NAS_X,
+					url: LIL_NAS_4,
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating (con DaBaby)',
-					time: '3:24',
+					song: 'THE ART OF REALIZATION',
+					time: '0:25',
+					img: LIL_NAS_X,
+					url: LIL_NAS_5,
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Fever',
-					time: '2:37',
+					song: 'SCOOP (con Doja Cat)',
+					time: '2:55',
+					img: LIL_NAS_X,
+					url: LIL_NAS_6,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'ONE OF ME (con Elton John)',
+					time: '2:42',
+					img: LIL_NAS_X,
+					url: LIL_NAS_7,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'LOST IN THE CITADEL',
+					time: '2:51',
+					img: LIL_NAS_X,
+					url: LIL_NAS_8,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'DOLLA SIGN SLIME (con Megan Thee Stallion)',
+					time: '2:26',
+					img: LIL_NAS_X,
+					url: LIL_NAS_9,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'TALES OF DOMINICA',
+					time: '2:27',
+					img: LIL_NAS_X,
+					url: LIL_NAS_10,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'SUN GOES DOWN',
+					time: '2:49',
+					img: LIL_NAS_X,
+					url: LIL_NAS_11,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'VOID',
+					time: '4:09',
+					img: LIL_NAS_X,
+					url: LIL_NAS_12,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'DONT WANT IT',
+					time: '2:11',
+					img: LIL_NAS_X,
+					url: LIL_NAS_13,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'LIFE AFTER SALEM',
+					time: '3:31',
+					img: LIL_NAS_X,
+					url: LIL_NAS_14,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'AM I DREAMING (con Miley Cyrus)',
+					time: '3:04',
+					img: LIL_NAS_X,
+					url: LIL_NAS_15,
 					like: false,
 					dislike: false,
 				},
 			],
 		},
 		{
-			artist: 'Green	Day',
-			disk: '21st Century Breakdown',
-			description: `21st Century Breakdown —en español: Crisis del siglo XXI— es el octavo álbum de estudio de la banda estadounidense de rock Green Day. Se trata de la segunda ópera rock del grupo, siendo el anterior American Idiot y es el primero producido por Butch Vig. Green Day comenzó a trabajar en él en enero de 2006. El cantante y guitarrista Billie Joe Armstrong había compuesto 45 canciones hacia octubre de 2007, pero no se comenzó a grabar con Vig hasta enero de 2008. El proceso de grabación y composición abarcó tres años y se llevó a cabo en cuatro estudios en California. Finalmente, se terminó en abril de 2009. 
-			El álbum se lanzó el 15 de mayo de 2009 a través de Reprise Records. Armstrong lo describió como «una "fotografía instantánea" de la época en la que vivimos, cuestionando y tratando de buscarle sentido a la manipulación egoísta a nuestro alrededor, proveniente del gobierno, la religión, los medios o francamente cualquier forma de autoridad».1 Los sencillos «Know Your Enemy» y «21 Guns» son ejemplos de la temática de alienación e indignación ante los políticos presente en el disco.
-			La respuesta crítica a 21st Century Breakdown fue en general positiva. Los críticos que alabaron el álbum consideraron las composiciones y las letras de Armstrong un éxito; los escépticos rechazaron el concepto del disco, describiéndolo como «vago» y «carente de dirección». El álbum alcanzó las primeras posiciones de las listas de venta de varios países en el mundo, incluyendo el Billboard 200, European Top 100 Albums y la UK Albums Chart. Recibió además el premio Grammy al mejor álbum de rock en la edición número 52 de estos galardones, celebrada el 31 de enero de 2010. Hacia diciembre de ese año, 21st Century Breakdown había vendido 10 140 000 copias en Estados Unidos y más de 3,5 millones a todo mundo.`,
-			price: 25,
+			artist: 'XXXTENTACION',
+			disk: '?',
+			description:
+				'? es el segundo álbum de estudio del rapero estadounidense XXXTentacion y el último álbum de estudio que se lanzó antes de su muerte. Fue lanzado el 16 de marzo de 2018 por Bad Vibes Forever, Caroline Distribution y Capitol Music Group. Sucede el lanzamiento de su álbum debut 17 y la obra extendida A Ghetto Christmas Carol. El álbum fue producido principalmente por el colaborador frecuente John Cunningham e incluye apariciones especiales de PnB Rock, Travis Barker, Joey Badass y Matt Ox. Con más instrumentación en vivo que 17, ? presenta una variedad de géneros, que incluyen acústica, emo, rock alternativo, trap y cloud rap. Las voces de XXXTentacion en partes del álbum son menos moderadas y bajas en comparación con las 17, con su voz en canciones introspectivas sobre piano y acordes de guitarra acústica que se proyectan más. En otras partes del álbum, el estilo de XXXTentacion se asemeja a su sonido underground, con él gritando. El álbum también presenta sonidos similares a la escena de rap Soundcloud. ?',
+			price: 84.2,
 			id: 9,
-			img: GREEN_DAY,
+			img: XXXTENTACION,
 			amount: 1,
 			favorite: false,
-			age: 2020,
-			song: 13,
-			minutes: 43,
+			age: 2018,
+			song: 18,
+			minutes: 37,
+			explicit: true,
 			songs: [
 				{
-					song: 'Future Nostalgia',
-					time: '3:05',
+					song: 'Introduction (intructions)',
+					time: '1:58',
+					img: XXXTENTACION,
+					url: XXXTENTACION_1,
 					like: false,
 					dislike: false,
 				},
 				{
-					song: "Don't Start Now",
-					time: '3:04',
+					song: 'ALONE, PART 3',
+					time: '1:50',
+					img: XXXTENTACION,
+					url: XXXTENTACION_2,
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Cool',
-					time: '3:30',
+					song: 'Moonlight',
+					time: '2:16',
+					img: XXXTENTACION,
+					url: XXXTENTACION_3,
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Physical',
-					time: '3:14',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Levitating',
-					time: '3:24',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Pretty Please',
-					time: '3:15',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Hallucinate',
-					time: '3:23',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Love Again',
-					time: '4:19',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Break My Hart',
-					time: '3:42',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Good in Bed',
-					time: '3:39',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Boys Will Be Boys',
+					song: 'SAD!',
 					time: '2:47',
+					img: XXXTENTACION,
+					url: XXXTENTACION_4,
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating (con DaBaby)',
-					time: '3:24',
+					song: 'the remedy for a broken heart (why am I son in love)',
+					time: '2:41',
+					img: XXXTENTACION,
+					url: XXXTENTACION_5,
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Fever',
-					time: '2:37',
+					song: 'Flooe 555',
+					time: '1:34',
+					img: XXXTENTACION,
+					url: XXXTENTACION_6,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'NUMB',
+					time: '3:07',
+					img: XXXTENTACION,
+					url: XXXTENTACION_7,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'infinity (888) (con Joey Bada$$)',
+					time: '2:57',
+					img: XXXTENTACION,
+					url: XXXTENTACION_8,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'going down!',
+					time: '1:56',
+					img: XXXTENTACION,
+					url: XXXTENTACION_9,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Pain = BESTFRIEND (con Travis Barker)',
+					time: '1:42',
+					img: XXXTENTACION,
+					url: XXXTENTACION_10,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: '$$$',
+					time: '2:11',
+					img: XXXTENTACION,
+					url: XXXTENTACION_11,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'love yourself (interlude)',
+					time: '0:49',
+					img: XXXTENTACION,
+					url: XXXTENTACION_12,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'SMASH! (con PnB Rock)',
+					time: '1:50',
+					img: XXXTENTACION,
+					url: XXXTENTACION_13,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: "i don't even speak spanish lol (con Rio Santana, Judah y Andrez Babii",
+					time: '3:13',
+					img: XXXTENTACION,
+					url: XXXTENTACION_14,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'changes',
+					time: '2:02',
+					img: XXXTENTACION,
+					url: XXXTENTACION_15,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Hope',
+					time: '1:51',
+					img: XXXTENTACION,
+					url: XXXTENTACION_16,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'schizophrenia',
+					time: '1:21',
+					img: XXXTENTACION,
+					url: XXXTENTACION_17,
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'before I close my eyes',
+					time: '1:40',
+					img: XXXTENTACION,
+					url: XXXTENTACION_18,
 					like: false,
 					dislike: false,
 				},
@@ -1584,94 +1872,97 @@ const DescriptionDisc = () => {
 			],
 		},
 		{
-			artist: 'BTS',
-			disk: 'Butter',
+			artist: 'Avicii',
+			disk: 'True',
 			description:
-				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
+				'True —en español: Verdadero— es el primer álbum del disc jockey y productor sueco Avicii, que fue publicado el 13 de septiembre de 2013, a través de PRMD Music y por sellos afiliadas a Universal Music. El álbum incluye la colaboración de artistas como Nile Rodgers, el músico de música country Mac Davis, Mike Einziger de la banda de rock Incubus, el cantante de soul Aloe Blacc, el cantante de bluegrass Dan Tyminski, Dan Reynolds de la banda estadounidense de rock Imagine Dragons y el cantante estadounidense Adam Lambert.​ En abril de 2013, Avicii publicó una mezcla promocional con 60 minutos de su nuevo material a través de SoundCloud. La mezcla contó con varias canciones inéditas del álbum como "Wake Me Up!" y otras con Dan Reynolds y Mac Davis, y fue reproducido más de dos millones de veces.​ El álbum ha alcanzado un gran éxito comercial, ingresando en el top ten de al menos diez países, entre ellos debutando en el puesto número 2 del Reino Unido, ​ y en la primera ubicación en su natal Suecia.​ El 24 de marzo de 2014, se lanzó una versión remezclada de todas las pistas del álbum, titulado True.​',
 			price: 88.2,
 			id: 11,
-			img: BTS,
+			img: AVICII,
 			amount: 1,
 			favorite: false,
-			age: 2020,
-			song: 13,
-			minutes: 43,
+			age: 2013,
+			song: 10,
+			minutes: 47,
+			explicit: true,
 			songs: [
 				{
-					song: 'Future Nostalgia',
-					time: '3:05',
+					song: 'Wake Me Up',
+					url: AVICII_1,
+					img: AVICII,
+					time: '4:07',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: "Don't Start Now",
-					time: '3:04',
+					song: 'You Make Me',
+					url: AVICII_2,
+					img: AVICII,
+					time: '3:53',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Cool',
-					time: '3:30',
+					song: 'Hey Brother',
+					url: AVICII_3,
+					img: AVICII,
+					time: '4:15',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Physical',
-					time: '3:14',
+					song: 'Addicted To You',
+					url: AVICII_4,
+					img: AVICII,
+					time: '2:28',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Levitating',
-					time: '3:24',
+					song: 'Dear Boy',
+					url: AVICII_5,
+					img: AVICII,
+					time: '7:59',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Pretty Please',
-					time: '3:15',
+					song: 'Liar Liar',
+					url: AVICII_6,
+					img: AVICII,
+					time: '3:58',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Hallucinate',
-					time: '3:23',
+					song: 'Shame On Me',
+					url: AVICII_7,
+					img: AVICII,
+					time: '4:13',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Love Again',
-					time: '4:19',
+					song: 'Lay Me Down',
+					url: AVICII_8,
+					img: AVICII,
+					time: '5:00',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Break My Hart',
-					time: '3:42',
+					song: "Hope There's Someone",
+					url: AVICII_9,
+					img: AVICII,
+					time: '6:21',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: 'Good in Bed',
-					time: '3:39',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Boys Will Be Boys',
-					time: '2:47',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Levitating (con DaBaby)',
-					time: '3:24',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Fever',
-					time: '2:37',
+					song: 'Heart Upon My Sleeve',
+					url: AVICII_10,
+					img: AVICII,
+					time: '4:43',
 					like: false,
 					dislike: false,
 				},
@@ -1681,91 +1972,118 @@ const DescriptionDisc = () => {
 			artist: 'Tame Impala',
 			disk: 'Currents',
 			description:
-				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
+				'Currents es el tercer álbum de estudio del proyecto musical australiano Tame Impala, lanzado el 17 de julio de 2015 por Modular Recordings y Universal Music Australia en Australia, Fiction Records en Europa e Interscope Records en los Estados Unidos. Al igual que los dos álbumes anteriores del grupo, Currents fue escrito, grabado, interpretado y producido por el miembro principal Kevin Parker. Cabe resaltar, que por primera vez, Kevin fue quien mezcló la música, también fue la primera vez que grabó todos los instrumentos por su cuenta; el álbum no presentó otros colaboradores. Después del lanzamiento del álbum anterior del grupo, Lonerism, Kevin comenzó a trabajar en Currents, en gran parte grabando en el estudio de su casa en Fremantle. Se absorbió a sí mismo con la escritura y la grabación, y de acuerdo con su reputación como un autor musical, trabajó en los detalles de cada canción, lo que finalmente provocó que la fecha de lanzamiento se retrasara por dos meses. En contraste con el sonido del rock psicodélico del trabajo anterior del proyecto, Currents marca un cambio hacia una música más orientada al dance, con más énfasis en los sintetizadores que en las guitarras.',
 			price: 56.5,
 			id: 12,
 			img: TAME_IMPALA,
 			amount: 1,
 			favorite: false,
-			age: 2020,
+			age: 2015,
 			song: 13,
-			minutes: 43,
+			minutes: 51,
+			explicit: true,
 			songs: [
 				{
-					song: 'Future Nostalgia',
+					song: 'Let It Happen',
+					url: TAME_IMPALA_1,
+					img: TAME_IMPALA,
+					time: '7:47',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Nangs',
+					url: TAME_IMPALA_2,
+					img: TAME_IMPALA,
+					time: '1:47',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'The Moment',
+					url: TAME_IMPALA_3,
+					img: TAME_IMPALA,
+					time: '4:15',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: "Yes I'm Changing",
+					url: TAME_IMPALA_4,
+					img: TAME_IMPALA,
+					time: '4:30',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Eventually',
+					url: TAME_IMPALA_5,
+					img: TAME_IMPALA,
+					time: '5:18',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Gossip',
+					url: TAME_IMPALA_6,
+					img: TAME_IMPALA,
+					time: '0:55',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'The Less I Know The Better',
+					url: TAME_IMPALA_7,
+					img: TAME_IMPALA,
+					time: '3:36',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Past Life',
+					url: TAME_IMPALA_8,
+					img: TAME_IMPALA,
+					time: '3:48',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Disciples',
+					url: TAME_IMPALA_9,
+					img: TAME_IMPALA,
+					time: '1:48',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: "'Cause I'm A Man",
+					url: TAME_IMPALA_10,
+					img: TAME_IMPALA,
+					time: '4:01',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Reality In Motion',
+					url: TAME_IMPALA_11,
+					img: TAME_IMPALA,
+					time: '4:12',
+					like: false,
+					dislike: false,
+				},
+				{
+					song: 'Love/Paranoia',
+					url: TAME_IMPALA_12,
+					img: TAME_IMPALA,
 					time: '3:05',
 					like: false,
 					dislike: false,
 				},
 				{
-					song: "Don't Start Now",
-					time: '3:04',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Cool',
-					time: '3:30',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Physical',
-					time: '3:14',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Levitating',
-					time: '3:24',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Pretty Please',
-					time: '3:15',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Hallucinate',
-					time: '3:23',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Love Again',
-					time: '4:19',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Break My Hart',
-					time: '3:42',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Good in Bed',
-					time: '3:39',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Boys Will Be Boys',
-					time: '2:47',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Levitating (con DaBaby)',
-					time: '3:24',
-					like: false,
-					dislike: false,
-				},
-				{
-					song: 'Fever',
-					time: '2:37',
+					song: 'New Person, Same Old Mistakes',
+					url: TAME_IMPALA_13,
+					img: TAME_IMPALA,
+					time: '6:03',
 					like: false,
 					dislike: false,
 				},

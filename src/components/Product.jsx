@@ -7,12 +7,12 @@ import THE_WEEKEND from '../image/artista-the-weekend.jpg';
 import DOJA_CAT from '../image/artista-doja-cat.jpg';
 import POST_MALONE from '../image/artista-post-malone.jpg';
 import ED_SHEERAN from '../image/artista-ed-sheeran.jpg';
-import HALSEY from '../image/artista-halsey.jpg';
+import SHAWN_MENDES from '../image/artista-shawn-mendes.jpg';
 import LIL_NAS_X from '../image/artista-lil-nas-x.jpg';
 import MAROON_5 from '../image/artista-maroon-5.jpg';
 import OLIVIA_RODRIGO from '../image/artista-olivia-rodrigo.jpg';
-import GREEN_DAY from '../image/artista-green-day.jpg';
-import BTS from '../image/artista-bts.jpg';
+import XXXTENTACION from '../image/artista-xxxtentacion.jpg';
+import AVICII from '../image/artista-avicii.jpg';
 import TOP from '../image/artista-top.jpg';
 import THE_NEIGHBOURHOOD from '../image/artist-the-neighbourhood.jpg';
 import NIRVANA from '../image/artista-nirvana.jpg';
@@ -136,13 +136,13 @@ const Product = ({
 			favorite: false,
 		},
 		{
-			artist: 'Halsey',
-			disk: 'Manic',
-			price: 65,
+			artist: 'Shawn Mendes',
+			disk: 'Illuminate',
+			price: 102.7,
 			description:
-				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
+				'Illuminate es el segundo álbum de estudio del cantante y compositor canadiense Shawn Mendes. Uno de los más vendidos del 2016. Fue lanzado el 23 de septiembre de 2016, bajo Island Records y Universal Music. Hasta agosto del 2017 el álbum ha vendido más de 2.2 millones de copias alrededor del mundo.​',
 			id: 6,
-			img: HALSEY,
+			img: SHAWN_MENDES,
 			amount: 1,
 			favorite: false,
 		},
@@ -169,24 +169,24 @@ const Product = ({
 			favorite: false,
 		},
 		{
-			artist: 'Green	Day',
-			disk: '21st Century Breakdown',
+			artist: 'XXXTENTACION',
+			disk: '?',
 			description:
-				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
-			price: 25,
+				'? es el segundo álbum de estudio del rapero estadounidense XXXTentacion y el último álbum de estudio que se lanzó antes de su muerte. Fue lanzado el 16 de marzo de 2018 por Bad Vibes Forever, Caroline Distribution y Capitol Music Group. Sucede el lanzamiento de su álbum debut 17 y la obra extendida A Ghetto Christmas Carol. El álbum fue producido principalmente por el colaborador frecuente John Cunningham e incluye apariciones especiales de PnB Rock, Travis Barker, Joey Badass y Matt Ox. Con más instrumentación en vivo que 17, ? presenta una variedad de géneros, que incluyen acústica, emo, rock alternativo, trap y cloud rap. Las voces de XXXTentacion en partes del álbum son menos moderadas y bajas en comparación con las 17, con su voz en canciones introspectivas sobre piano y acordes de guitarra acústica que se proyectan más. En otras partes del álbum, el estilo de XXXTentacion se asemeja a su sonido underground, con él gritando. El álbum también presenta sonidos similares a la escena de rap Soundcloud. ?',
+			price: 84.2,
 			id: 9,
-			img: GREEN_DAY,
+			img: XXXTENTACION,
 			amount: 1,
 			favorite: false,
 		},
 		{
-			artist: 'BTS',
-			disk: 'Butter',
+			artist: 'Avicii',
+			disk: 'True',
 			description:
-				'Future Nostalgia es el segundo álbum de estudio de la cantante británica Dua Lipa. Fue lanzado el 27 de marzo de 2020 por el sello discográfico Warner Records. Comenzó el trabajo en el álbum a principios de 2018, reclutando a escritores y productores como Jeff Bhasker, Ian Kirkpatrick, Stuart Price, The Monsters and the Strangerz. Para el álbum encontró inspiración en la música de artistas que escuchó durante su adolescencia, como Gwen Stefani, Moloko, Daft Punk y Outkast. El álbum fue promocionado con seis sencillos y un sencillo promocional, Don t Start Now, se lanzó el 1 de noviembre de 2019 como el sencillo principal del álbum. Se convirtió en su séptima entrada entre los 10 primeros en la lista de sencillos del Reino Unido y su primera entrada entre los tres primeros en el Billboard Hot 100 de Estados Unidos. El tema principal del álbum Future Nostalgia se lanzó como sencillo promocional el 13 de diciembre de 2019. Su segundo sencillo Physical se estrenó el 31 de enero de 2020 y alcanzó el número siete en la lista de sencillos del Reino Unido, mientras que Break My Heart se publicó como el tercer sencillo del álbum el 25 de marzo de 2020. Para promocionar el álbum, Lipa comenzará la gira Future Nostalgia Tour en octubre de 2021. El álbum alcanzó el primer lugar en la lista del Reino Unido, convirtiéndose en su primer material en llegar a dicha posición mientras que en Billboard 200 de Estados Unidos se ubicó en la tercera ubicación. Se posicionó en la primera posición en nueve países diferentes incluyendo Escocia, Reino Unido, Estonia, Eslovaquia, República Checa, Finlandia, Lituania, Irlanda y Nueva Zelanda. En Spotify rompió tres récords en la plataforma, convirtiéndose en el álbum más transmitido en un día por una artista femenina británica a nivel mundial y el más transmitido en un día por una artista femenina británica en el Reino Unido y en los Estados Unidos. Tras 67 semanas, en la semana del 20 de julio de 2021, Future Nostalgia continúa en el top 10 de Billboard 200, en el sexto puesto. ',
+				'True —en español: Verdadero— es el primer álbum del disc jockey y productor sueco Avicii, que fue publicado el 13 de septiembre de 2013, a través de PRMD Music y por sellos afiliadas a Universal Music. El álbum incluye la colaboración de artistas como Nile Rodgers, el músico de música country Mac Davis, Mike Einziger de la banda de rock Incubus, el cantante de soul Aloe Blacc, el cantante de bluegrass Dan Tyminski, Dan Reynolds de la banda estadounidense de rock Imagine Dragons y el cantante estadounidense Adam Lambert.​ En abril de 2013, Avicii publicó una mezcla promocional con 60 minutos de su nuevo material a través de SoundCloud. La mezcla contó con varias canciones inéditas del álbum como "Wake Me Up!" y otras con Dan Reynolds y Mac Davis, y fue reproducido más de dos millones de veces.​ El álbum ha alcanzado un gran éxito comercial, ingresando en el top ten de al menos diez países, entre ellos debutando en el puesto número 2 del Reino Unido, ​ y en la primera ubicación en su natal Suecia.​ El 24 de marzo de 2014, se lanzó una versión remezclada de todas las pistas del álbum, titulado True.​',
 			price: 88.2,
 			id: 11,
-			img: BTS,
+			img: AVICII,
 			amount: 1,
 			favorite: false,
 		},
