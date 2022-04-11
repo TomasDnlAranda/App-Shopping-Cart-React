@@ -24,6 +24,8 @@
 	font-size: 1rem;
 	font-weight: bold;
 	text-align: center;
+	width: max-content;
+	margin: 0.5rem auto;
 }
 
 .card-product h3 {
