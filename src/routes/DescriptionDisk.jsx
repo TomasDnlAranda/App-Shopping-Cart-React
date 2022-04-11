@@ -264,6 +264,7 @@ const DescriptionDisc = () => {
 					time: '3:05',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: "Don't Start Now",
@@ -272,6 +273,7 @@ const DescriptionDisc = () => {
 					time: '3:01',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Cool',
@@ -280,6 +282,7 @@ const DescriptionDisc = () => {
 					time: '3:29',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Physical',
@@ -288,6 +291,7 @@ const DescriptionDisc = () => {
 					time: '3:14',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Levitating',
@@ -296,6 +300,7 @@ const DescriptionDisc = () => {
 					time: '3:24',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Pretty Please',
@@ -304,6 +309,7 @@ const DescriptionDisc = () => {
 					time: '3:14',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Hallucinate',
@@ -312,6 +318,7 @@ const DescriptionDisc = () => {
 					time: '3:27',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Love Again',
@@ -320,6 +327,7 @@ const DescriptionDisc = () => {
 					time: '4:18',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Break My Hart',
@@ -328,6 +336,7 @@ const DescriptionDisc = () => {
 					time: '3:42',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Good in Bed',
@@ -336,6 +345,7 @@ const DescriptionDisc = () => {
 					time: '3:39',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Boys Will Be Boys',
@@ -344,6 +354,7 @@ const DescriptionDisc = () => {
 					time: '2:48',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Levitating (con DaBaby)',
@@ -352,6 +363,7 @@ const DescriptionDisc = () => {
 					time: '3:50',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Fever',
@@ -360,6 +372,7 @@ const DescriptionDisc = () => {
 					time: '2:39',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 			],
 		},
@@ -385,6 +398,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_1,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Too Late',
@@ -393,6 +407,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_2,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Hardest To Love',
@@ -401,6 +416,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_3,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Scared To Live',
@@ -409,6 +425,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_4,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Snowchild',
@@ -417,6 +434,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_5,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Escape From LA',
@@ -425,6 +443,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_6,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Heartless',
@@ -433,6 +452,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_7,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Faith',
@@ -441,6 +461,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_8,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Blinding Lights',
@@ -449,6 +470,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_9,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'In Your Eyes',
@@ -457,6 +479,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_10,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Save Your Tears',
@@ -465,6 +488,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_11,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Repeat After Me (interlude)',
@@ -473,6 +497,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_12,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'After Hours',
@@ -481,6 +506,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_13,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Untill I Bleed Out',
@@ -489,6 +515,7 @@ const DescriptionDisc = () => {
 					url: THE_WEEKEND_14,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 			],
 		},
@@ -514,6 +541,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_1,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'In Bloom',
@@ -522,6 +550,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_2,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Come As You Are',
@@ -530,6 +559,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_3,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Breed',
@@ -538,6 +568,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_4,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Lithium',
@@ -546,6 +577,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_5,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Polly',
@@ -554,6 +586,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_6,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Territorial Pissings',
@@ -562,6 +595,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_7,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Drain You',
@@ -570,6 +604,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_8,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Lounge Acy',
@@ -578,6 +613,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_9,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Stay Away',
@@ -586,6 +622,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_10,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'On A Plain',
@@ -594,6 +631,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_11,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Something in The Way',
@@ -602,6 +640,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_12,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Endless, Nameless',
@@ -610,6 +649,7 @@ const DescriptionDisc = () => {
 					url: NIRVANA_13,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 			],
 		},
@@ -635,6 +675,7 @@ const DescriptionDisc = () => {
 					url: THE_NEIGHBOURHOOD_1,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Leaving Tonight',
@@ -643,6 +684,7 @@ const DescriptionDisc = () => {
 					url: THE_NEIGHBOURHOOD_2,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Baby Came Home',
@@ -651,6 +693,7 @@ const DescriptionDisc = () => {
 					url: THE_NEIGHBOURHOOD_3,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Sweater Weather',
@@ -659,6 +702,7 @@ const DescriptionDisc = () => {
 					url: THE_NEIGHBOURHOOD_4,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Wires',
@@ -667,6 +711,7 @@ const DescriptionDisc = () => {
 					url: THE_NEIGHBOURHOOD_5,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 			],
 		},
@@ -692,6 +737,7 @@ const DescriptionDisc = () => {
 					url: TOP_1,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Stressed Out',
@@ -700,6 +746,7 @@ const DescriptionDisc = () => {
 					url: TOP_2,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Ride',
@@ -708,6 +755,7 @@ const DescriptionDisc = () => {
 					url: TOP_3,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Fairly Local',
@@ -716,6 +764,7 @@ const DescriptionDisc = () => {
 					url: TOP_4,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Tear in My Heart',
@@ -724,6 +773,7 @@ const DescriptionDisc = () => {
 					url: TOP_5,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Lane Boy',
@@ -732,6 +782,7 @@ const DescriptionDisc = () => {
 					url: TOP_6,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'The Judge',
@@ -740,6 +791,7 @@ const DescriptionDisc = () => {
 					url: TOP_7,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Doubt',
@@ -748,6 +800,7 @@ const DescriptionDisc = () => {
 					url: TOP_8,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Polarize',
@@ -756,6 +809,7 @@ const DescriptionDisc = () => {
 					url: TOP_9,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: "We Dont' Believe What's on TV",
@@ -764,6 +818,7 @@ const DescriptionDisc = () => {
 					url: TOP_10,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Message Man',
@@ -772,6 +827,7 @@ const DescriptionDisc = () => {
 					url: TOP_11,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Hometown',
@@ -780,6 +836,7 @@ const DescriptionDisc = () => {
 					url: TOP_12,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Not Today',
@@ -788,6 +845,7 @@ const DescriptionDisc = () => {
 					url: TOP_13,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Goner',
@@ -796,6 +854,7 @@ const DescriptionDisc = () => {
 					url: TOP_14,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 			],
 		},
@@ -821,6 +880,7 @@ const DescriptionDisc = () => {
 					time: '2:46',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: "Won't Bite (con Smino)",
@@ -829,6 +889,7 @@ const DescriptionDisc = () => {
 					time: '3:16',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Rules',
@@ -837,6 +898,7 @@ const DescriptionDisc = () => {
 					time: '3:08',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Bottom Bitch',
@@ -845,6 +907,7 @@ const DescriptionDisc = () => {
 					time: '3:18',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Say So',
@@ -853,6 +916,7 @@ const DescriptionDisc = () => {
 					time: '3:58',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Like That (con Gucci Mane)',
@@ -861,6 +925,7 @@ const DescriptionDisc = () => {
 					time: '2:44',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Talk Dirty',
@@ -869,6 +934,7 @@ const DescriptionDisc = () => {
 					time: '4:02',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Addiction',
@@ -877,6 +943,7 @@ const DescriptionDisc = () => {
 					time: '3:29',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Streets',
@@ -885,6 +952,7 @@ const DescriptionDisc = () => {
 					time: '3:47',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Shine',
@@ -893,6 +961,7 @@ const DescriptionDisc = () => {
 					time: '2:41',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Better Than Me',
@@ -901,6 +970,7 @@ const DescriptionDisc = () => {
 					time: '3:23',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Juicy',
@@ -909,6 +979,7 @@ const DescriptionDisc = () => {
 					time: '3:24',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 			],
 		},
@@ -934,6 +1005,7 @@ const DescriptionDisc = () => {
 					time: '2:37',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Saint-Tropez',
@@ -942,6 +1014,7 @@ const DescriptionDisc = () => {
 					time: '2:31',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Enemies (con DaBaby)',
@@ -950,6 +1023,7 @@ const DescriptionDisc = () => {
 					time: '3:17',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Allergic',
@@ -958,6 +1032,7 @@ const DescriptionDisc = () => {
 					time: '2:37',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'A Thousand Bad Times',
@@ -966,6 +1041,7 @@ const DescriptionDisc = () => {
 					time: '3:42',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Circles',
@@ -974,6 +1050,7 @@ const DescriptionDisc = () => {
 					time: '3:36',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Die for Me (con Future y Halsey)',
@@ -982,6 +1059,7 @@ const DescriptionDisc = () => {
 					time: '4:06',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'On the Road (con Meek Mill y Lil Baby)',
@@ -990,6 +1068,7 @@ const DescriptionDisc = () => {
 					time: '3:39',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Take What You Want (con Ozzy Osbourne y Travis Scott)',
@@ -998,6 +1077,7 @@ const DescriptionDisc = () => {
 					time: '3:50',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: "I'm Gonne Be",
@@ -1006,6 +1086,7 @@ const DescriptionDisc = () => {
 					time: '3:21',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Staring at the Sun (con SZA)',
@@ -1014,6 +1095,7 @@ const DescriptionDisc = () => {
 					time: '2:49',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Sunflower (from "Spider-Man: Into the Spider-Verse")',
@@ -1022,6 +1104,7 @@ const DescriptionDisc = () => {
 					time: '2:38',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Internet',
@@ -1030,6 +1113,7 @@ const DescriptionDisc = () => {
 					time: '2:04',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Goodbyes (con Young Thug)',
@@ -1038,6 +1122,7 @@ const DescriptionDisc = () => {
 					time: '2:55',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Myself',
@@ -1046,6 +1131,7 @@ const DescriptionDisc = () => {
 					time: '2:39',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'I Know',
@@ -1054,6 +1140,7 @@ const DescriptionDisc = () => {
 					time: '2:22',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Wow.',
@@ -1062,6 +1149,7 @@ const DescriptionDisc = () => {
 					time: '2:30',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 			],
 		},
@@ -1087,6 +1175,7 @@ const DescriptionDisc = () => {
 					time: '3:16',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Shivers',
@@ -1095,6 +1184,7 @@ const DescriptionDisc = () => {
 					time: '3:28',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'First Times',
@@ -1103,6 +1193,7 @@ const DescriptionDisc = () => {
 					time: '3:06',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Bad Habits',
@@ -1111,6 +1202,7 @@ const DescriptionDisc = () => {
 					time: '3:51',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Overpass Graffiti',
@@ -1119,6 +1211,7 @@ const DescriptionDisc = () => {
 					time: '3:57',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'The Joker And The Queen',
@@ -1127,6 +1220,7 @@ const DescriptionDisc = () => {
 					time: '3:06',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Leave Your Life',
@@ -1135,6 +1229,7 @@ const DescriptionDisc = () => {
 					time: '3:44',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Collide',
@@ -1143,6 +1238,7 @@ const DescriptionDisc = () => {
 					time: '3:31',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: '2step',
@@ -1151,6 +1247,7 @@ const DescriptionDisc = () => {
 					time: '2:34',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Stop The Rain',
@@ -1159,6 +1256,7 @@ const DescriptionDisc = () => {
 					time: '3:24',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Love In Slow Motion',
@@ -1167,6 +1265,7 @@ const DescriptionDisc = () => {
 					time: '3:11',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Visiting Hours',
@@ -1175,6 +1274,7 @@ const DescriptionDisc = () => {
 					time: '3:36',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Sandman',
@@ -1183,6 +1283,7 @@ const DescriptionDisc = () => {
 					time: '4:20',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Be Right Now',
@@ -1191,6 +1292,7 @@ const DescriptionDisc = () => {
 					time: '3:32',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 			],
 		},
@@ -1216,6 +1318,7 @@ const DescriptionDisc = () => {
 					time: '3:19',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Ruin',
@@ -1224,6 +1327,7 @@ const DescriptionDisc = () => {
 					time: '4:01',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Mercy',
@@ -1232,6 +1336,7 @@ const DescriptionDisc = () => {
 					time: '3:28',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Treat You Better',
@@ -1240,6 +1345,7 @@ const DescriptionDisc = () => {
 					time: '3:07',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Three Empty Words',
@@ -1248,6 +1354,7 @@ const DescriptionDisc = () => {
 					time: '3:19',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: "Dont't Be A Fool",
@@ -1256,6 +1363,7 @@ const DescriptionDisc = () => {
 					time: '3:35',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Like This',
@@ -1264,6 +1372,7 @@ const DescriptionDisc = () => {
 					time: '3:06',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'No Promises',
@@ -1272,6 +1381,7 @@ const DescriptionDisc = () => {
 					time: '2:46',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Lights On',
@@ -1280,6 +1390,7 @@ const DescriptionDisc = () => {
 					time: '3:21',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Honest',
@@ -1288,6 +1399,7 @@ const DescriptionDisc = () => {
 					time: '3:19',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Patience',
@@ -1296,6 +1408,7 @@ const DescriptionDisc = () => {
 					time: '2:55',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Bad Reputation',
@@ -1304,6 +1417,7 @@ const DescriptionDisc = () => {
 					time: '3:18',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Understand',
@@ -1312,6 +1426,7 @@ const DescriptionDisc = () => {
 					time: '5:00',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Hold On',
@@ -1320,6 +1435,7 @@ const DescriptionDisc = () => {
 					time: '3:19',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Roses',
@@ -1328,6 +1444,7 @@ const DescriptionDisc = () => {
 					time: '3:52',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Mercy (Acoustic)',
@@ -1336,6 +1453,7 @@ const DescriptionDisc = () => {
 					time: '3:39',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 			],
 		},
@@ -1361,6 +1479,7 @@ const DescriptionDisc = () => {
 					time: '3:48',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Lost',
@@ -1369,6 +1488,7 @@ const DescriptionDisc = () => {
 					time: '2:53',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Echo (con blackbear)',
@@ -1377,6 +1497,7 @@ const DescriptionDisc = () => {
 					time: '2:59',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Lovesick',
@@ -1385,6 +1506,7 @@ const DescriptionDisc = () => {
 					time: '3:06',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Remedy (con Stavie Nicks)',
@@ -1393,6 +1515,7 @@ const DescriptionDisc = () => {
 					time: '2:30',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Seasons',
@@ -1401,6 +1524,7 @@ const DescriptionDisc = () => {
 					time: '2:49',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'One Light (con Bantu)',
@@ -1408,6 +1532,7 @@ const DescriptionDisc = () => {
 					url: MAROON_FIVE_7,
 					time: '3:35',
 					like: false,
+					explicit: false,
 					dislike: false,
 				},
 				{
@@ -1416,6 +1541,7 @@ const DescriptionDisc = () => {
 					url: MAROON_FIVE_8,
 					time: '3:08',
 					like: false,
+					explicit: false,
 					dislike: false,
 				},
 				{
@@ -1424,6 +1550,7 @@ const DescriptionDisc = () => {
 					url: MAROON_FIVE_9,
 					time: '3:32',
 					like: false,
+					explicit: false,
 					dislike: false,
 				},
 				{
@@ -1432,6 +1559,7 @@ const DescriptionDisc = () => {
 					url: MAROON_FIVE_10,
 					time: '3:17',
 					like: false,
+					explicit: false,
 					dislike: false,
 				},
 				{
@@ -1441,6 +1569,7 @@ const DescriptionDisc = () => {
 					time: '3:10',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Memories Remix (con Nipsey Hussle y YG)',
@@ -1449,6 +1578,7 @@ const DescriptionDisc = () => {
 					time: '3:10',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Button (con Anuel AA y Tainy)',
@@ -1457,6 +1587,7 @@ const DescriptionDisc = () => {
 					time: '2:45',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Lifestyle (con Adam Levine)',
@@ -1465,6 +1596,7 @@ const DescriptionDisc = () => {
 					time: '2:34',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 			],
 		},
@@ -1490,6 +1622,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_1,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'DEAD RIGHT NOW',
@@ -1498,6 +1631,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_2,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'INDUSTRY BABY',
@@ -1506,6 +1640,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_3,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'THATS WHAT I WANT',
@@ -1514,6 +1649,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_4,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'THE ART OF REALIZATION',
@@ -1522,6 +1658,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_5,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'SCOOP (con Doja Cat)',
@@ -1530,6 +1667,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_6,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'ONE OF ME (con Elton John)',
@@ -1538,6 +1676,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_7,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'LOST IN THE CITADEL',
@@ -1546,6 +1685,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_8,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'DOLLA SIGN SLIME (con Megan Thee Stallion)',
@@ -1554,6 +1694,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_9,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'TALES OF DOMINICA',
@@ -1562,6 +1703,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_10,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'SUN GOES DOWN',
@@ -1570,6 +1712,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_11,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'VOID',
@@ -1578,6 +1721,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_12,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'DONT WANT IT',
@@ -1586,6 +1730,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_13,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'LIFE AFTER SALEM',
@@ -1594,6 +1739,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_14,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'AM I DREAMING (con Miley Cyrus)',
@@ -1602,6 +1748,7 @@ const DescriptionDisc = () => {
 					url: LIL_NAS_15,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 			],
 		},
@@ -1627,6 +1774,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_1,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'ALONE, PART 3',
@@ -1635,6 +1783,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_2,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Moonlight',
@@ -1643,6 +1792,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_3,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'SAD!',
@@ -1651,6 +1801,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_4,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'the remedy for a broken heart (why am I son in love)',
@@ -1659,14 +1810,16 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_5,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
-					song: 'Flooe 555',
+					song: 'Floor 555',
 					time: '1:34',
 					img: XXXTENTACION,
 					url: XXXTENTACION_6,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'NUMB',
@@ -1675,6 +1828,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_7,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'infinity (888) (con Joey Bada$$)',
@@ -1683,6 +1837,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_8,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'going down!',
@@ -1691,6 +1846,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_9,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Pain = BESTFRIEND (con Travis Barker)',
@@ -1699,6 +1855,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_10,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: '$$$',
@@ -1707,6 +1864,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_11,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'love yourself (interlude)',
@@ -1715,6 +1873,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_12,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'SMASH! (con PnB Rock)',
@@ -1723,6 +1882,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_13,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: "i don't even speak spanish lol (con Rio Santana, Judah y Andrez Babii",
@@ -1731,6 +1891,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_14,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'changes',
@@ -1739,6 +1900,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_15,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Hope',
@@ -1747,6 +1909,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_16,
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'schizophrenia',
@@ -1755,6 +1918,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_17,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'before I close my eyes',
@@ -1763,6 +1927,7 @@ const DescriptionDisc = () => {
 					url: XXXTENTACION_18,
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 			],
 		},
@@ -1788,6 +1953,7 @@ const DescriptionDisc = () => {
 					time: '2:24',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'traitor',
@@ -1796,6 +1962,7 @@ const DescriptionDisc = () => {
 					time: '3:50',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'drivers license',
@@ -1804,6 +1971,7 @@ const DescriptionDisc = () => {
 					time: '4:03',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: '1 step forward, 3 steps back',
@@ -1812,6 +1980,7 @@ const DescriptionDisc = () => {
 					time: '2:44',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'deja vu',
@@ -1820,6 +1989,7 @@ const DescriptionDisc = () => {
 					time: '3:36',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'good 4 u',
@@ -1828,6 +1998,7 @@ const DescriptionDisc = () => {
 					time: '2:59',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'enough for you',
@@ -1836,6 +2007,7 @@ const DescriptionDisc = () => {
 					time: '3:39',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'happier',
@@ -1844,6 +2016,7 @@ const DescriptionDisc = () => {
 					time: '2:56',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'jealousy, jealousy',
@@ -1852,6 +2025,7 @@ const DescriptionDisc = () => {
 					time: '2:54',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'favorite crime',
@@ -1860,6 +2034,7 @@ const DescriptionDisc = () => {
 					time: '2:33',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'hope ur ok',
@@ -1868,6 +2043,7 @@ const DescriptionDisc = () => {
 					time: '3:30',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 			],
 		},
@@ -1893,6 +2069,7 @@ const DescriptionDisc = () => {
 					time: '4:07',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'You Make Me',
@@ -1901,6 +2078,7 @@ const DescriptionDisc = () => {
 					time: '3:53',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Hey Brother',
@@ -1909,6 +2087,7 @@ const DescriptionDisc = () => {
 					time: '4:15',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Addicted To You',
@@ -1917,6 +2096,7 @@ const DescriptionDisc = () => {
 					time: '2:28',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Dear Boy',
@@ -1925,6 +2105,7 @@ const DescriptionDisc = () => {
 					time: '7:59',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Liar Liar',
@@ -1933,6 +2114,7 @@ const DescriptionDisc = () => {
 					time: '3:58',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Shame On Me',
@@ -1941,6 +2123,7 @@ const DescriptionDisc = () => {
 					time: '4:13',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Lay Me Down',
@@ -1949,6 +2132,7 @@ const DescriptionDisc = () => {
 					time: '5:00',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: "Hope There's Someone",
@@ -1957,6 +2141,7 @@ const DescriptionDisc = () => {
 					time: '6:21',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Heart Upon My Sleeve',
@@ -1965,6 +2150,7 @@ const DescriptionDisc = () => {
 					time: '4:43',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 			],
 		},
@@ -1990,6 +2176,7 @@ const DescriptionDisc = () => {
 					time: '7:47',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Nangs',
@@ -1998,6 +2185,7 @@ const DescriptionDisc = () => {
 					time: '1:47',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'The Moment',
@@ -2005,6 +2193,7 @@ const DescriptionDisc = () => {
 					img: TAME_IMPALA,
 					time: '4:15',
 					like: false,
+					explicit: false,
 					dislike: false,
 				},
 				{
@@ -2013,7 +2202,8 @@ const DescriptionDisc = () => {
 					img: TAME_IMPALA,
 					time: '4:30',
 					like: false,
-					dislike: false,
+					explicit: false,
+					dislike: true,
 				},
 				{
 					song: 'Eventually',
@@ -2021,6 +2211,7 @@ const DescriptionDisc = () => {
 					img: TAME_IMPALA,
 					time: '5:18',
 					like: false,
+					explicit: false,
 					dislike: false,
 				},
 				{
@@ -2029,6 +2220,7 @@ const DescriptionDisc = () => {
 					img: TAME_IMPALA,
 					time: '0:55',
 					like: false,
+					explicit: false,
 					dislike: false,
 				},
 				{
@@ -2037,7 +2229,8 @@ const DescriptionDisc = () => {
 					img: TAME_IMPALA,
 					time: '3:36',
 					like: false,
-					dislike: false,
+					explicit: false,
+					dislike: true,
 				},
 				{
 					song: 'Past Life',
@@ -2046,6 +2239,7 @@ const DescriptionDisc = () => {
 					time: '3:48',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Disciples',
@@ -2054,6 +2248,7 @@ const DescriptionDisc = () => {
 					time: '1:48',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: "'Cause I'm A Man",
@@ -2062,6 +2257,7 @@ const DescriptionDisc = () => {
 					time: '4:01',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'Reality In Motion',
@@ -2070,6 +2266,7 @@ const DescriptionDisc = () => {
 					time: '4:12',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 				{
 					song: 'Love/Paranoia',
@@ -2078,6 +2275,7 @@ const DescriptionDisc = () => {
 					time: '3:05',
 					like: false,
 					dislike: false,
+					explicit: true,
 				},
 				{
 					song: 'New Person, Same Old Mistakes',
@@ -2086,6 +2284,7 @@ const DescriptionDisc = () => {
 					time: '6:03',
 					like: false,
 					dislike: false,
+					explicit: false,
 				},
 			],
 		},
