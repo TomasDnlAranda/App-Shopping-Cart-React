@@ -54,3 +54,113 @@
 	align-items: flex-start;
 	justify-content: space-around;
 }
+
+.modal-favorite__title {
+	color: #fff;
+	padding-top: 1rem;
+}
+
+@media (max-width: 1250px) {
+	.modal-favorite__icon-heart {
+		color: rgb(241, 241, 241);
+		font-size: 1.5rem;
+		cursor: pointer;
+	}
+
+	.modal-favorite__icon-heart:hover {
+		color: #fffb02;
+	}
+
+	.modal-favorite__appear-modal {
+		position: absolute;
+		right: -35%;
+		width: 35%;
+		top: 56px;
+		-webkit-transition: all 0.3s 0s ease;
+		-moz-transition: all 0.3s 0s ease;
+		-o-transition: all 0.3s 0s ease;
+		transition: all 0.3s 0s ease;
+		background: #130e41;
+		user-select: none;
+		height: 100%;
+	}
+
+	.modal-favorite__esconder-modal {
+		position: absolute;
+		width: 45%;
+		top: 56px;
+		right: 0;
+		background: #130e41;
+		-webkit-transition: all 0.3s 0s ease;
+		-moz-transition: all 0.3s 0s ease;
+		-o-transition: all 0.3s 0s ease;
+		transition: all 0.3s 0s ease;
+		user-select: none;
+		height: 100%;
+	}
+
+	.modal-favorite__container-text {
+		color: #3a3a3a;
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		font-weight: bold;
+		width: 100%;
+	}
+
+	.modal-favorite__container-text .modal-favorite__title {
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
+	.modal-favorite__esconder-modal,
+	.modal-favorite__appear-modal {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-around;
+	}
+
+	.modal-favorite__title {
+		color: #fff;
+		padding-top: 1rem;
+	}
+}
+
+@media (max-width: 750px) {
+	.modal-favorite__esconder-modal {
+		position: absolute;
+		width: 100%;
+		top: 56px;
+		right: 0;
+		background: #130e41;
+		-webkit-transition: all 0.3s 0s ease;
+		-moz-transition: all 0.3s 0s ease;
+		-o-transition: all 0.3s 0s ease;
+		transition: all 0.3s 0s ease;
+		user-select: none;
+		height: 100%;
+	}
+	.modal-favorite__container-text .modal-favorite__title {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 570px) {
+	.modal-favorite__esconder-modal {
+		position: absolute;
+		width: 100%;
+		top: 56px;
+		right: 0;
+		background: #130e41;
+		-webkit-transition: all 0.3s 0s ease;
+		-moz-transition: all 0.3s 0s ease;
+		-o-transition: all 0.3s 0s ease;
+		transition: all 0.3s 0s ease;
+		user-select: none;
+		height: 100%;
+	}
+	.modal-favorite__container-text .modal-favorite__title {
+		font-size: 1.25rem;
+		margin-bottom: 2rem;
+	}
+}

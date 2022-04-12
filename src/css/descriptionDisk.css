@@ -14,7 +14,7 @@
 }
 
 .description-disk__img {
-	width: 100%;
+	width: 300px;
 	height: 300px;
 	border-radius: 20px;
 	box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
@@ -25,6 +25,7 @@
 
 .description-disk__containter-text {
 	margin: 0 1rem;
+	height: 300px;
 }
 
 .description-disk__description-record {
@@ -36,10 +37,10 @@
 
 .description-disk__artist {
 	font-size: 2.5rem;
-	margin-bottom: 1rem;
 	color: rgb(235, 235, 235);
 	font-weight: bolder;
 	line-height: 1.2;
+	margin: 0;
 }
 
 .description-disk__button {
@@ -62,6 +63,7 @@
 	text-align: center;
 	text-decoration: none;
 	margin-bottom: 7rem;
+	margin-top: 1rem;
 }
 .description-disk__button:hover {
 	border-radius: 5px;
@@ -89,4 +91,34 @@
 
 .description-disk__row-second {
 	color: #fff;
+}
+
+.description-disk__read-more,
+.description-disk__read-less {
+	background: transparent;
+	border: none;
+	color: #edf100;
+	cursor: pointer;
+}
+
+.descriptiom-disk__play-random {
+	border: none;
+	display: flex;
+	flex-flow: row;
+	min-width: 150px;
+	max-width: 175px;
+	padding: 0.45rem 1rem;
+	cursor: pointer;
+	background: #fff;
+}
+
+.descriptiom-disk__play-random span {
+	font-size: 1rem;
+	margin-top: 0.1rem;
+	font-weight: bold;
+}
+
+.descriptiom-disk__play-random svg {
+	margin-right: 1rem;
+	font-size: 1.25rem;
 }

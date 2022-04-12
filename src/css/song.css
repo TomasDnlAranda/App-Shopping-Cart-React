@@ -7,13 +7,22 @@
 	border-bottom: 1.5px solid rgb(39, 39, 39);
 	padding: 10px 0;
 	margin-bottom: 5px;
-	cursor: pointer;
 }
 
 .song__name {
 	flex-grow: 1;
-	margin-left: 1.5rem;
+	margin-left: 2.5rem;
 	font-weight: bold;
+}
+
+.song__play {
+	flex-grow: 1;
+	width: 15%;
+	cursor: pointer;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .song__container-like {
@@ -24,6 +33,8 @@
 
 .song__like {
 	margin-right: 1rem;
+	cursor: pointer;
+	padding: 5px;
 }
 
 .song:hover .song__container-like {
@@ -38,4 +49,11 @@
 
 .song__explicit {
 	margin-right: 5rem;
+}
+
+.song__like-real {
+	color: #edf100;
+	padding: 5px;
+	cursor: pointer;
+	margin-right: 1rem;
 }
