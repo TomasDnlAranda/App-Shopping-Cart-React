@@ -2741,8 +2741,8 @@ const DescriptionDisc = () => {
 				? numRandom !== numSave
 					? setSongsDemo({ song: item.songs[numRandom].song, url: item.songs[numRandom].url })
 					: setSongsDemo({
-							song: item.songs[numRandom - 1].song,
-							url: item.songs[numRandom - 1].url,
+							song: item.songs[numRandom === 0 ? +1 : 0].song,
+							url: item.songs[numRandom === 0 ? +1 : 0].url,
 					  })
 				: null
 		);
