@@ -8,7 +8,7 @@ const Song = ({ item, playSongDemo, changeStateLike, changeStateDislike }) => {
 
 	return (
 		<div className="song">
-			<div className="song__play" data-song={song} onClick={() => playSongDemo(song, url)}>
+			<div className="song__play" onClick={(e) => playSongDemo(song, url)}>
 				<img src={img} className="song__img" />
 				<span className="song__name">{song}</span>
 			</div>
@@ -29,7 +29,7 @@ const Song = ({ item, playSongDemo, changeStateLike, changeStateDislike }) => {
 					</>
 				}
 			</div>
-			<span>{time}</span>
+			<span className="song__time">{time}</span>
 		</div>
 	);
 };

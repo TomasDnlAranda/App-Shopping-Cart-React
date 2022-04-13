@@ -83,6 +83,7 @@
 		background: #130e41;
 		user-select: none;
 		height: 100%;
+		display: none;
 	}
 
 	.modal-favorite__esconder-modal {

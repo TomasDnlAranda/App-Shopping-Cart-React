@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Song from '../components/Song';
 import Audio from '../components/Audio';
@@ -2694,7 +2694,6 @@ const DescriptionDisc = () => {
 
 	const playSongDemo = (song, url) => {
 		setSongsDemo({ song, url });
-		console.log(songsDemo);
 	};
 
 	const showAllDescription = () => {

@@ -222,13 +222,13 @@ const Product = ({
 	};
 
 	useEffect(() => {
-		if (localStorage.getItem('addInfo')) {
-			setData(JSON.parse(localStorage.getItem('addInfo')));
+		if (localStorage.getItem('stateHeart')) {
+			setData(JSON.parse(localStorage.getItem('stateHeart')));
 		}
 	}, []);
 
 	useEffect(() => {
-		localStorage.setItem('addInfo', JSON.stringify(data));
+		localStorage.setItem('stateHeart', JSON.stringify(data));
 	}, [data]);
 
 	return (

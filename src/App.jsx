@@ -53,30 +53,32 @@ function App() {
 	};
 
 	useEffect(() => {
-		if (localStorage.getItem('addCart')) {
-			setCartProducts(JSON.parse(localStorage.getItem('addCart')));
+		if (localStorage.getItem('cart')) {
+			setCartProducts(JSON.parse(localStorage.getItem('cart')));
 		}
 	}, []);
 
 	useEffect(() => {
-		if (localStorage.getItem('addF')) {
-			setfavoriteDiscs(JSON.parse(localStorage.getItem('addF')));
+		if (localStorage.getItem('favorite')) {
+			setfavoriteDiscs(JSON.parse(localStorage.getItem('favorite')));
 		}
 	}, []);
 
 	useEffect(() => {
-		localStorage.setItem('addCart', JSON.stringify(cartProducts));
+		localStorage.setItem('cart', JSON.stringify(cartProducts));
 	}, [cartProducts]);
 
 	useEffect(() => {
-		localStorage.setItem('addF', JSON.stringify(favoriteDiscs));
+		localStorage.setItem('favorite', JSON.stringify(favoriteDiscs));
 	}, [favoriteDiscs]);
 
 	return (
 		<>
 			<Navbar favoriteDiscs={favoriteDiscs} />
 			{validation ? (
-				<Outlet />
+				<>
+					<Outlet />
+				</>
 			) : (
 				<div className="app">
 					<div className="app__section-left">
