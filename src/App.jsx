@@ -1,13 +1,15 @@
 import Navbar from './components/Navbar';
 import Product from './components/Product';
 import CartShopping from './components/CartShopping';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './css/app.css';
 import { Outlet } from 'react-router-dom';
 
 function App() {
 	const [cartProducts, setCartProducts] = useState([]);
+
 	const [favoriteDiscs, setfavoriteDiscs] = useState([]);
+
 	let [validation, setValidation] = useState(false);
 
 	const addProductToCart = (product) => {
@@ -49,6 +51,26 @@ function App() {
 	const changeValidation = () => {
 		setValidation(!validation);
 	};
+
+	useEffect(() => {
+		if (localStorage.getItem('addCart')) {
+			setCartProducts(JSON.parse(localStorage.getItem('addCart')));
+		}
+	}, []);
+
+	useEffect(() => {
+		if (localStorage.getItem('addF')) {
+			setfavoriteDiscs(JSON.parse(localStorage.getItem('addF')));
+		}
+	}, []);
+
+	useEffect(() => {
+		localStorage.setItem('addCart', JSON.stringify(cartProducts));
+	}, [cartProducts]);
+
+	useEffect(() => {
+		localStorage.setItem('addF', JSON.stringify(favoriteDiscs));
+	}, [favoriteDiscs]);
 
 	return (
 		<>

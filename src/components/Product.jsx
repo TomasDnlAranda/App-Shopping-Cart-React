@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../css/product.css';
 import CardProduct from './CardProduct';
 import TAME_IMPALA from '../image/artista-tame-impala.png';
@@ -220,6 +220,16 @@ const Product = ({
 
 		searchArtist ? setSearchParams({ searchArtist }) : setSearchParams({});
 	};
+
+	useEffect(() => {
+		if (localStorage.getItem('addInfo')) {
+			setData(JSON.parse(localStorage.getItem('addInfo')));
+		}
+	}, []);
+
+	useEffect(() => {
+		localStorage.setItem('addInfo', JSON.stringify(data));
+	}, [data]);
 
 	return (
 		<>
