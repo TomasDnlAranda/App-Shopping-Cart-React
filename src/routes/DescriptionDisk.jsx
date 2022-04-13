@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Song from '../components/Song';
 import Audio from '../components/Audio';
@@ -242,6 +242,10 @@ const DescriptionDisc = () => {
 	const [songsDemo, setSongsDemo] = useState({});
 
 	const [readMore, setReadMore] = useState(false);
+
+	const [numRandom, setNumRandom] = useState(Math.floor(Math.random() * 5));
+
+	const [numSave, setNumSave] = useState(null);
 
 	const [data] = useState([
 		{
@@ -1333,7 +1337,7 @@ const DescriptionDisc = () => {
 			artist: 'Ed Sheeran',
 			disk: 'Equals',
 			description:
-				'= es el cuarto álbum de estudio​​ del músico y cantautor británico Ed Sheeran, lanzado el 29 de octubre de 2021 por Asylum y Atlantic Records.​ El álbum fue apoyado por los sencillos «Bad Habits», «Shivers» y «Overpass Graffiti», además de «Visiting Hours», lanzado como el único sencillo promocional. Recibió críticas mixtas de críticos musicales. El álbum alcanzó el número uno en Australia, Bélgica, Canadá, Dinamarca, Francia, Alemania, Irlanda, Italia, Lituania, Holanda, Nueva Zelanda, Escocia, Suecia, Reino Unido y Estados Unidos.',
+				'= es el cuarto álbum de estudio​​ del músico y cantautor británico Ed Sheeran, lanzado el 29 de octubre de 2021 por Asylum y Atlantic Records.​ El álbum fue apoyado por los sencillos «Bad Habits», «Shivers» y «Overpass Graffiti», además de «Visiting Hours», lanzado como el único sencillo promocional. Recibió críticas mixtas de críticos musicales. El álbum alcanzó el número uno en Australia, Bélgica, Canadá, Dinamarca, Francia, Alemania, Irlanda, Italia, Lituania, Holanda, Nueva Zelanda, Escocia, Suecia, Reino Unido y Estados Unidos. El 18 de agosto de 2021, Sheeran dijo que habría un «gran anuncio» al día siguiente. El 19 de agosto, anunció el álbum y su fecha de lanzamiento en sus redes sociales. Él describió el álbum como su disco de «coming-of-age». Sheeran describió el álbum como uno «muy personal y que significa mucho para mí», citando cambios en su vida como el matrimonio, el nacimiento de su hija y pérdidas. En una entrevista con Capital FM el 27 de junio de 2021, Sheeran también declaró que le gustaría ver las canciones que hizo para la película Yesterday aparecieran en una versión reempaquetada del álbum antes de salir de gira para promocionar el disco.10​',
 			price: 95.5,
 			id: 5,
 			img: ED_SHEERAN,
@@ -1505,7 +1509,7 @@ const DescriptionDisc = () => {
 			disk: 'Illuminate (Deluxe)',
 			price: 102.7,
 			description:
-				'Illuminate es el segundo álbum de estudio del cantante y compositor canadiense Shawn Mendes. Uno de los más vendidos del 2016. Fue lanzado el 23 de septiembre de 2016, bajo Island Records y Universal Music. Hasta agosto del 2017 el álbum ha vendido más de 2.2 millones de copias alrededor del mundo.​',
+				'Illuminate es el segundo álbum de estudio del cantante y compositor canadiense Shawn Mendes. Uno de los más vendidos del 2016. Fue lanzado el 23 de septiembre de 2016, bajo Island Records y Universal Music. Hasta agosto del 2017 el álbum ha vendido más de 2.2 millones de copias alrededor del mundo.​ "Treat You Better" fue lanzado como el primer sencillo del álbum el 3 de junio de 2016. El vídeo musical fue lanzado el 12 de julio de 2016, y cuenta con una historia acerca de una relación abusiva. Desde su lanzamiento, "Treat You Better" ha alcanzado el número 6 en el Billboard Hot 100. Hoy en día el video tiene un billón de visitas en Youtube. Shawn escribió esta canción para concienciar a sus oyentes de que no hay que tolerar el abuso, contando una historia sobre una chica que sufre el machismo por parte de su novio, y añadiéndole un toque de amor, donde el cantante se enamora de dicha chica y le dice que el le podría tratar mejor. El 20 de junio de 2017, lanzó el videoclip de There´s Nothing Holdin´ Me Back en Youtube, donde aparece con la modelo y actriz inglesa Ellie Bamber.',
 			id: 6,
 			img: SHAWN_MENDES,
 			amount: 1,
@@ -2729,15 +2733,18 @@ const DescriptionDisc = () => {
 		}
 	};
 
-	const playRandom = (artist) => {
+	const playRandom = (artist, songs) => {
+		setNumRandom(Math.floor(Math.random() * songs));
+		setNumSave(numRandom);
 		data.map((item) =>
 			item.artist === artist
-				? item.songs.filter((item) =>
-						item.id === Math.floor(Math.random() * item.totalSong)
-							? setSongsDemo({ song: item.song, url: item.url })
-							: null
-				  )
-				: item
+				? numRandom !== numSave
+					? setSongsDemo({ song: item.songs[numRandom].song, url: item.songs[numRandom].url })
+					: setSongsDemo({
+							song: item.songs[numRandom - 1].song,
+							url: item.songs[numRandom - 1].url,
+					  })
+				: null
 		);
 	};
 
@@ -2752,14 +2759,14 @@ const DescriptionDisc = () => {
 								<h2 className="description-disk__artist">{item.artist}</h2>
 								<div className="description-disk__container-data-disk">
 									<div className="description-disk__row-first">
-										{item.explicit === true ? <MdExplicit /> : null} Album •{' '}
+										{item.explicit === true ? <MdExplicit key={item.id} /> : null} Album •{' '}
 										<span>{item.artist}</span> • <span>{item.age}</span>
 									</div>
 									<div className="description-disk__row-second">
 										<span>{item.song} canciones</span> • <span>{item.minutes} minutos</span>
 									</div>
 								</div>
-								<p className="description-disk__description-record" key={item.id}>
+								<p className="description-disk__description-record">
 									{readMore ? item.description : item.description.slice(0, 350) + '... '}
 									{readMore ? (
 										<button
@@ -2779,9 +2786,9 @@ const DescriptionDisc = () => {
 								</p>
 								<button
 									className="descriptiom-disk__play-random"
-									onClick={() => playRandom(item.artist)}
+									onClick={() => playRandom(item.artist, item.song)}
 								>
-									<FaRandom /> <span>ALEATORIO</span>
+									<FaRandom key={item.id} /> <span>ALEATORIO</span>
 								</button>
 							</div>
 						</>
