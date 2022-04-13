@@ -1,13 +1,15 @@
 import Navbar from './components/Navbar';
 import Product from './components/Product';
 import CartShopping from './components/CartShopping';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './css/app.css';
 import { Outlet } from 'react-router-dom';
 
 function App() {
 	const [cartProducts, setCartProducts] = useState([]);
+
 	const [favoriteDiscs, setfavoriteDiscs] = useState([]);
+
 	let [validation, setValidation] = useState(false);
 
 	const addProductToCart = (product) => {
@@ -50,11 +52,33 @@ function App() {
 		setValidation(!validation);
 	};
 
+	useEffect(() => {
+		if (localStorage.getItem('cart')) {
+			setCartProducts(JSON.parse(localStorage.getItem('cart')));
+		}
+	}, []);
+
+	useEffect(() => {
+		if (localStorage.getItem('favorite')) {
+			setfavoriteDiscs(JSON.parse(localStorage.getItem('favorite')));
+		}
+	}, []);
+
+	useEffect(() => {
+		localStorage.setItem('cart', JSON.stringify(cartProducts));
+	}, [cartProducts]);
+
+	useEffect(() => {
+		localStorage.setItem('favorite', JSON.stringify(favoriteDiscs));
+	}, [favoriteDiscs]);
+
 	return (
 		<>
 			<Navbar favoriteDiscs={favoriteDiscs} />
 			{validation ? (
-				<Outlet />
+				<>
+					<Outlet />
+				</>
 			) : (
 				<div className="app">
 					<div className="app__section-left">

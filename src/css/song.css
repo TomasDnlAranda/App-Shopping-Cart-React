@@ -5,25 +5,50 @@
 	width: 90%;
 	align-items: center;
 	border-bottom: 1.5px solid rgb(39, 39, 39);
-	padding: 10px 0;
-	margin-bottom: 5px;
-	cursor: pointer;
+	padding: 10px 1rem;
+}
+
+.song__container-name {
+	width: 100%;
+}
+
+.song_select {
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	align-items: center;
+	border-bottom: 1.5px solid rgb(39, 39, 39);
+	padding: 10px 1rem;
+	background: #1d1d1d;
 }
 
 .song__name {
 	flex-grow: 1;
-	margin-left: 1.5rem;
+	margin-left: 2.5rem;
 	font-weight: bold;
+}
+
+.song__play {
+	flex-grow: 1;
+	width: 15%;
+	cursor: pointer;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .song__container-like {
 	margin-right: 2rem;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	color: transparent;
 }
 
 .song__like {
 	margin-right: 1rem;
+	cursor: pointer;
+	padding: 5px;
 }
 
 .song:hover .song__container-like {
@@ -38,4 +63,230 @@
 
 .song__explicit {
 	margin-right: 5rem;
+}
+
+.song__like-real {
+	color: #edf100;
+	padding: 5px;
+	cursor: pointer;
+	margin-right: 1rem;
+}
+
+@media (max-width: 990px) {
+	.song {
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+		align-items: center;
+		border-bottom: 1.5px solid rgb(39, 39, 39);
+		padding: 7.5px 1rem;
+	}
+
+	.song_select {
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+		align-items: center;
+		border-bottom: 1.5px solid rgb(39, 39, 39);
+		padding: 7.5px 1rem;
+		background: #1d1d1d;
+	}
+
+	.song__name {
+		flex-grow: 1;
+		margin-left: 2rem;
+		font-weight: bold;
+		font-size: 0.8rem;
+	}
+
+	.song__play {
+		flex-grow: 1;
+		width: 15%;
+		cursor: pointer;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.song__container-like {
+		margin-right: 2rem;
+		font-size: 1.5rem;
+		color: transparent;
+	}
+
+	.song__like {
+		margin-right: 1rem;
+		cursor: pointer;
+		padding: 5px;
+		font-size: 1rem;
+	}
+	.song__like-real {
+		font-size: 1rem;
+	}
+
+	.song:hover .song__container-like {
+		color: #fff;
+	}
+
+	.song__img {
+		height: 27.5px;
+		width: 27.5px;
+		border-radius: 5px;
+	}
+
+	.song__time {
+		font-size: 0.75rem;
+	}
+}
+
+@media (max-width: 772px) {
+	.song {
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+		align-items: center;
+		border-bottom: 1.5px solid rgb(39, 39, 39);
+		padding: 7.5px 1rem;
+	}
+
+	.song_select {
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+		align-items: center;
+		border-bottom: 1.5px solid rgb(39, 39, 39);
+		padding: 7.5px 1rem;
+		background: #1d1d1d;
+	}
+
+	.song__name {
+		flex-grow: 1;
+		margin-left: 2rem;
+		font-weight: bold;
+		font-size: 0.65rem;
+	}
+
+	.song__play {
+		flex-grow: 1;
+		width: 15%;
+		cursor: pointer;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.song__container-like {
+		margin-right: 2rem;
+		font-size: 1.5rem;
+		color: transparent;
+	}
+
+	.song__like {
+		margin-right: 1rem;
+		cursor: pointer;
+		padding: 5px;
+		font-size: 0.75rem;
+	}
+	.song__like-real {
+		font-size: 0.75rem;
+	}
+
+	.song:hover .song__container-like {
+		color: #fff;
+	}
+
+	.song__img {
+		height: 22.5px;
+		width: 22.5px;
+		border-radius: 5px;
+	}
+
+	.song__time {
+		font-size: 0.6rem;
+	}
+
+	.song__explicit {
+		font-size: 0.75rem;
+	}
+}
+
+@media (max-width: 660px) {
+	.song {
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+		align-items: center;
+		border-bottom: 1.5px solid rgb(39, 39, 39);
+		padding: 6px 1rem;
+	}
+
+	.song_select {
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
+		width: 90%;
+		align-items: center;
+		border-bottom: 1.5px solid rgb(39, 39, 39);
+		padding: 7.5px 1rem;
+		background: #1d1d1d;
+	}
+
+	.song__name {
+		flex-grow: 1;
+		margin-left: 1.25rem;
+		font-weight: bold;
+		font-size: 0.5rem;
+	}
+
+	.song__play {
+		flex-grow: 1;
+		width: 15%;
+		cursor: pointer;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.song__container-like {
+		font-size: 1.5rem;
+		color: transparent;
+		margin: 0 1rem;
+	}
+
+	.song__like {
+		margin-right: 0.25rem;
+		cursor: pointer;
+		padding: 5px;
+		font-size: 0.6rem;
+	}
+	.song__like-real {
+		margin-right: 0.25rem;
+		cursor: pointer;
+		padding: 5px;
+		font-size: 0.6rem;
+	}
+
+	.song__img {
+		height: 20px;
+		width: 20px;
+		border-radius: 5px;
+	}
+
+	.song__time {
+		font-size: 0.5rem;
+	}
+
+	.song__explicit {
+		font-size: 0.6rem;
+		margin-right: 0;
+		margin-left: 1.25rem;
+	}
 }

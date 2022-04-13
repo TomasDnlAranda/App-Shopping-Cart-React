@@ -4,17 +4,18 @@
 	align-items: center;
 	background: #070614;
 	user-select: none;
+	height: max-content;
 }
-
 .description-disk__container {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	padding: 2.5rem;
 }
-
-.description-disk__img {
+.description-disk___contenedor-songs {
 	width: 100%;
+}
+.description-disk__img {
+	width: 300px;
 	height: 300px;
 	border-radius: 20px;
 	box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
@@ -24,7 +25,7 @@
 }
 
 .description-disk__containter-text {
-	margin: 0 1rem;
+	margin: 0 1rem 5rem;
 }
 
 .description-disk__description-record {
@@ -32,14 +33,15 @@
 	font-size: 0.85rem;
 	color: rgb(235, 235, 235);
 	line-height: 1.5;
+	height: max-content;
 }
 
 .description-disk__artist {
 	font-size: 2.5rem;
-	margin-bottom: 1rem;
 	color: rgb(235, 235, 235);
 	font-weight: bolder;
 	line-height: 1.2;
+	margin: 0;
 }
 
 .description-disk__button {
@@ -61,7 +63,8 @@
 	background-color: #652fa3;
 	text-align: center;
 	text-decoration: none;
-	margin-bottom: 7rem;
+	margin-bottom: 6rem;
+	margin-top: 1rem;
 }
 .description-disk__button:hover {
 	border-radius: 5px;
@@ -89,4 +92,543 @@
 
 .description-disk__row-second {
 	color: #fff;
+}
+
+.description-disk__read-more,
+.description-disk__read-less {
+	background: transparent;
+	border: none;
+	color: #edf100;
+	cursor: pointer;
+	height: 100%;
+}
+
+.descriptiom-disk__play-random {
+	border: none;
+	display: flex;
+	flex-flow: row;
+	min-width: 150px;
+	max-width: 175px;
+	padding: 0.45rem 1rem;
+	cursor: pointer;
+	background: #fff;
+}
+
+.descriptiom-disk__play-random span {
+	font-size: 1rem;
+	margin-top: 0.1rem;
+	font-weight: bold;
+}
+
+.descriptiom-disk__play-random svg {
+	margin-right: 1rem;
+	font-size: 1.25rem;
+}
+
+@media (max-width: 780px) {
+	.description-disk {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: #070614;
+		user-select: none;
+	}
+
+	.description-disk__container {
+		display: flex;
+		flex-direction: row;
+		padding: 2.5rem;
+	}
+
+	.description-disk__img {
+		width: 300px;
+		height: 300px;
+		border-radius: 20px;
+		box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		-webkit-box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		border: 1px solid #fff;
+	}
+
+	.description-disk__containter-text {
+		margin: 0 1rem;
+	}
+
+	.description-disk__description-record {
+		flex-grow: 1;
+		font-size: 0.6rem;
+		color: rgb(235, 235, 235);
+		line-height: 1.5;
+	}
+
+	.description-disk__artist {
+		font-size: 2rem;
+		color: rgb(235, 235, 235);
+		font-weight: bolder;
+		line-height: 1.2;
+		margin: 0;
+	}
+
+	.description-disk__button {
+		min-width: 100px;
+		height: 30px;
+		color: #fff;
+		padding: 3.5px 7.5px;
+		font-weight: bold;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		outline: none;
+		overflow: hidden;
+		border-radius: 5px;
+		border: none;
+		background-color: #652fa3;
+		text-align: center;
+		text-decoration: none;
+		margin-bottom: 5.5rem;
+		margin-top: 1rem;
+		font-size: 0.75rem;
+	}
+	.description-disk__button:hover {
+		border-radius: 5px;
+		padding-right: 24px;
+		padding-left: 8px;
+	}
+	.description-disk__button:hover:after {
+		opacity: 1;
+		right: 10px;
+		top: -3px;
+	}
+	.description-disk__button:after {
+		content: '\00BB';
+		position: absolute;
+		opacity: 0;
+		font-size: 20px;
+		line-height: 40px;
+		top: -3px;
+		right: -20px;
+		transition: 0.4s;
+	}
+
+	.description-disk__read-more,
+	.description-disk__read-less {
+		font-size: 10px;
+	}
+
+	.description-disk__row-first {
+		color: #fff;
+		margin-top: 0.5rem;
+		font-size: 0.8rem;
+	}
+
+	.description-disk__row-second {
+		color: #fff;
+		font-size: 0.8rem;
+	}
+	.descriptiom-disk__play-random {
+		border: none;
+		display: flex;
+		flex-flow: row;
+		min-width: 150px;
+		max-width: 175px;
+		padding: 0.45rem 1rem;
+		cursor: pointer;
+		background: #fff;
+	}
+
+	.descriptiom-disk__play-random span {
+		font-size: 0.85rem;
+		margin-top: 0.1rem;
+		font-weight: bold;
+	}
+
+	.descriptiom-disk__play-random svg {
+		margin-right: 1rem;
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 650px) {
+	.description-disk {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: #070614;
+		user-select: none;
+	}
+
+	.description-disk__container {
+		display: flex;
+		flex-direction: row;
+		padding: 2rem;
+	}
+
+	.description-disk__read-more,
+	.description-disk__read-less {
+		font-size: 8px;
+	}
+
+	.description-disk__img {
+		width: 250px;
+		height: 250px;
+		border-radius: 20px;
+		box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		-webkit-box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		border: 1px solid #fff;
+	}
+
+	.description-disk__containter-text {
+		margin: 0 1rem;
+	}
+
+	.description-disk__description-record {
+		flex-grow: 1;
+		font-size: 0.5rem;
+		color: rgb(235, 235, 235);
+		line-height: 1.5;
+	}
+
+	.description-disk__artist {
+		font-size: 1.75em;
+		color: rgb(235, 235, 235);
+		font-weight: bolder;
+		line-height: 1.2;
+		margin: 0;
+	}
+
+	.description-disk__button {
+		min-width: 80px;
+		height: 30px;
+		color: #fff;
+		padding: 2.5px 6.5px;
+		font-weight: bold;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		outline: none;
+		overflow: hidden;
+		border-radius: 5px;
+		border: none;
+		background-color: #652fa3;
+		text-align: center;
+		text-decoration: none;
+		margin-bottom: 5.5rem;
+		margin-top: 1rem;
+		font-size: 0.6rem;
+	}
+	.description-disk__button:hover {
+		border-radius: 5px;
+		padding-right: 24px;
+		padding-left: 8px;
+	}
+	.description-disk__button:hover:after {
+		opacity: 1;
+		right: 10px;
+		top: -3px;
+	}
+	.description-disk__button:after {
+		content: '\00BB';
+		position: absolute;
+		opacity: 0;
+		font-size: 15px;
+		line-height: 40px;
+		top: -3px;
+		right: -20px;
+		transition: 0.4s;
+	}
+
+	.description-disk__row-first {
+		color: #fff;
+		margin-top: 0.5rem;
+		font-size: 0.65rem;
+	}
+
+	.description-disk__row-second {
+		color: #fff;
+		font-size: 0.65rem;
+	}
+	.descriptiom-disk__play-random {
+		border: none;
+		display: flex;
+		flex-flow: row;
+		min-width: 125px;
+		max-width: 175px;
+		padding: 0.25rem 1rem;
+		cursor: pointer;
+		background: #fff;
+	}
+
+	.descriptiom-disk__play-random span {
+		font-size: 0.6rem;
+		margin-top: 0.1rem;
+		font-weight: bold;
+	}
+
+	.descriptiom-disk__play-random svg {
+		margin-right: 1rem;
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 530px) {
+	.description-disk {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: #070614;
+		user-select: none;
+	}
+
+	.description-disk__container {
+		display: flex;
+		flex-direction: row;
+		padding: 1.5rem;
+	}
+
+	.description-disk__read-more,
+	.description-disk__read-less {
+		font-size: 5px;
+	}
+
+	.description-disk__img {
+		width: 150px;
+		height: 150px;
+		border-radius: 20px;
+		box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		-webkit-box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		border: 1px solid #fff;
+	}
+
+	.description-disk__containter-text {
+		margin: 0 1rem;
+	}
+
+	.description-disk__description-record {
+		flex-grow: 1;
+		font-size: 0.35rem;
+		color: rgb(235, 235, 235);
+		line-height: 1.5;
+	}
+
+	.description-disk__artist {
+		font-size: 1.25rem;
+		color: rgb(235, 235, 235);
+		font-weight: bolder;
+		line-height: 1.2;
+		margin: 0;
+	}
+
+	.description-disk__button {
+		min-width: 70px;
+		height: 25px;
+		color: #fff;
+		padding: 2.5px 6.5px;
+		font-weight: bold;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		outline: none;
+		overflow: hidden;
+		border-radius: 5px;
+		border: none;
+		background-color: #652fa3;
+		text-align: center;
+		text-decoration: none;
+		margin-bottom: 5rem;
+		margin-top: 1rem;
+		font-size: 0.5rem;
+	}
+	.description-disk__button:hover {
+		border-radius: 5px;
+		padding-right: 24px;
+		padding-left: 8px;
+	}
+	.description-disk__button:hover:after {
+		opacity: 1;
+		right: 10px;
+		top: -5.2px;
+	}
+	.description-disk__button:after {
+		content: '\00BB';
+		position: absolute;
+		opacity: 0;
+		font-size: 12px;
+		line-height: 40px;
+		top: -5.2px;
+		right: -20px;
+		transition: 0.4s;
+	}
+
+	.description-disk__row-first {
+		color: #fff;
+		margin-top: 0.15rem;
+		font-size: 0.4rem;
+	}
+
+	.description-disk__row-second {
+		color: #fff;
+		font-size: 0.4rem;
+	}
+	.descriptiom-disk__play-random {
+		border: none;
+		display: flex;
+		flex-flow: row;
+		min-width: 100px;
+		max-width: 175px;
+		padding: 0.25rem 1rem;
+		cursor: pointer;
+		background: #fff;
+		margin-top: 0.5rem;
+	}
+
+	.descriptiom-disk__play-random span {
+		font-size: 0.4rem;
+		margin-top: 1px;
+		font-weight: bold;
+	}
+
+	.descriptiom-disk__play-random svg {
+		margin-right: 1rem;
+		font-size: 0.6rem;
+	}
+}
+
+@media (max-width: 380px) {
+	.description-disk {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: #070614;
+		user-select: none;
+	}
+
+	.description-disk__container {
+		display: flex;
+		flex-direction: row;
+		padding: 1.5rem;
+	}
+
+	.description-disk__read-more,
+	.description-disk__read-less {
+		font-size: 5px;
+	}
+
+	.description-disk__img {
+		width: 125px;
+		height: 125px;
+		border-radius: 20px;
+		box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		-webkit-box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: 0px 10px 44px -5px rgba(0, 0, 0, 0.75);
+		border: 1px solid #fff;
+	}
+
+	.description-disk__containter-text {
+		margin: 0 1rem;
+	}
+
+	.description-disk__description-record {
+		flex-grow: 1;
+		font-size: 0.35rem;
+		color: rgb(235, 235, 235);
+		line-height: 1.5;
+		margin: 0.3rem 0;
+		display: none;
+	}
+
+	.description-disk__artist {
+		font-size: 1rem;
+		color: rgb(235, 235, 235);
+		font-weight: bolder;
+		line-height: 1.2;
+		margin: 0;
+	}
+
+	.description-disk__button {
+		min-width: 70px;
+		height: 25px;
+		color: #fff;
+		padding: 2.5px 6.5px;
+		font-weight: bold;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		outline: none;
+		overflow: hidden;
+		border-radius: 5px;
+		border: none;
+		background-color: #652fa3;
+		text-align: center;
+		text-decoration: none;
+		margin-bottom: 5rem;
+		margin-top: 1rem;
+		font-size: 0.5rem;
+	}
+	.description-disk__button:hover {
+		border-radius: 5px;
+		padding-right: 24px;
+		padding-left: 8px;
+	}
+	.description-disk__button:hover:after {
+		opacity: 1;
+		right: 10px;
+		top: -5.2px;
+	}
+	.description-disk__button:after {
+		content: '\00BB';
+		position: absolute;
+		opacity: 0;
+		font-size: 12px;
+		line-height: 40px;
+		top: -5.2px;
+		right: -20px;
+		transition: 0.4s;
+	}
+
+	.description-disk__row-first {
+		color: #fff;
+		margin-top: 0.15rem;
+		font-size: 0.4rem;
+	}
+
+	.description-disk__row-second {
+		color: #fff;
+		font-size: 0.4rem;
+	}
+	.descriptiom-disk__play-random {
+		border: none;
+		display: flex;
+		flex-flow: row;
+		min-width: 100px;
+		max-width: 175px;
+		padding: 0.25rem 1rem;
+		cursor: pointer;
+		background: #fff;
+		margin-top: 0.5rem;
+	}
+
+	.descriptiom-disk__play-random span {
+		font-size: 0.4rem;
+		margin-top: 1px;
+		font-weight: bold;
+	}
+
+	.descriptiom-disk__play-random svg {
+		margin-right: 1rem;
+		font-size: 0.6rem;
+	}
 }

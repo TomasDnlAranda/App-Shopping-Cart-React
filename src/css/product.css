@@ -1,6 +1,14 @@
 .product {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
 	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.product___input {
+	width: 50%;
+	margin: 0.75rem auto;
+	padding: 0.4rem;
+	display: flex;
+	justify-content: center;
 }
